@@ -1,6 +1,0 @@
-# Catatan Sprint 0: 124450063
-
-* Unduh data kasus 23: 58 berkas cocok MANIFEST.csv
-* Komponen: Penjaga Data & Evaluasi (Data Custodian / Artifact Manager)
-* Seri yang akan dikerjakan: Semua seri (Fokus pada validasi data `raw`, `silver.parquet`, `gold`, serta pengelolaan `metrics.json`)
-* Kendala: Tidak ada
