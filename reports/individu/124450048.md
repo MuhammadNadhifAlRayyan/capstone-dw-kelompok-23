@@ -34,7 +34,6 @@ Pemeriksaan integritas berkas mentah dan pembentukan kerangka panel telah diuji 
 | Verifikasi pipeline awal | Gagal (belum unduh) | Lolos verifikasi MANIFEST | `python pipeline.py` |
 | Grid observasi panel master | Belum ada | 608 baris ($38 \times 16$ tahun) | `python -c "from src.gold.panel import buat_grid_provinsi_periode; print(len(buat_grid_provinsi_periode()))"` |
 | Log keputusan tercatat | 0 | 1 keputusan (K-001) | `wc -l log-keputusan.csv` |
-| Artefak metrik hasil | Belum ada | Tercatat di `results/124450048/` | `python -m src.common.hasil 124450048 berkas_diverifikasi=58 ...` |
 
 ---
 
