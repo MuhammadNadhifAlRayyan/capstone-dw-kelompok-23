@@ -1,14 +1,13 @@
-# Laporan tim — <Nama tim>, kasus <NN> <judul kasus>
+# Laporan tim — Kelompok 23, Kasus 23: Kerusakan dan kerugian akibat bencana
 
 Satu dokumen bersama, enam bagian. Angka harus dapat ditarik ulang dari `data/silver`, `data/gold`,
 dan `log-keputusan.csv` yang sudah di-*commit*.
 
 ## Ringkasan
-Kasus, seri yang ditangani, dan satu kalimat temuan utama tentang kualitas datanya.
+Kasus 23 membahas kerusakan dan kerugian akibat bencana di Indonesia bersumber dari BNPB (14 seri utama tingkat provinsi dan kabupaten/kota periode 2010–2025) serta pembanding nasional World Development Indicators (WDI `EN.CLC.MDAT.ZS`). Temuan awal menunjukkan heterogenitas format yang tinggi (JSON CKAN datastore dan spreadsheet Excel ber-header ganda), perbedaan tingkat granularitas wilayah (provinsi vs kabupaten/kota), adanya baris nasional (Indonesia) di dalam tabel provinsi yang memerlukan pemisahan eksplisit, serta sebaran nilai kerugian dan kerusakan dalam rupiah yang sangat lebar sehingga membutuhkan transformasi logaritma.
 
 ## Data dan lineage
-Sumber dan format mentah, jumlah berkas, cara `_berkas_raw`/`_sha256_raw` dibentuk, dan hasil tarik
-ulang API (bila dilakukan): apa yang berubah sejak snapshot 17–20 Oktober 2026.
+Sumber dan format mentah terdiri atas 58 berkas (39 JSON datastore/CKAN BNPB, 15 XLSX rekapitulasi BNPB, dan 4 JSON WDI) dari snapshot 20 Oktober 2026. Setiap baris Silver menyimpan `_berkas_raw` dan `_sha256_raw` yang diverifikasi terhadap `data/raw/MANIFEST.csv`.
 
 ## Masalah data dan penanganannya
 Tabel masalah yang ditemukan (missing, outlier, patahan seri, duplikat, format, wilayah) dengan
@@ -25,3 +24,8 @@ vs DuckDB/Dask, dan keterbatasan yang tersisa.
 ## Pembagian kerja
 | Anggota | NIM | Komponen | Tugas sampingan | Bagian laporan yang ditulis |
 |---|---|---|---|---|
+| Nabila Nur Azizah | 124450048 | Transformasi dan panel (Tahap 4) | Koordinator | Ringkasan, Struktur & Skema Panel Gold |
+| Fernando Dimetrius Barus | 124450063 | Validasi dan dokumentasi (Tahap 8) | Penjaga Data & Evaluasi | Validasi dan reproduksibilitas |
+| Abigael Limbong | 124450080 | Integrasi, penyimpanan, dan skala (Tahap 5–7) | Analis Utama | Integrasi dan rekonsiliasi |
+| Muhammad Nadhif Al Rayyan | 124450071 | Ekstraksi, profil, dan pembersihan (Tahap 1–3) | Integrator & Reproduksi | Data dan lineage, Masalah data |
+
