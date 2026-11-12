@@ -1,0 +1,12 @@
+{
+  "metrik": {
+    "berkas_diverifikasi": 58,
+    "provinsi_target": 38,
+    "seri_utama": 14,
+    "tahun_mulai": 2010,
+    "tahun_akhir": 2025
+  },
+  "seed": 0,
+  "data_hash": "a764c4e125ad7afa9eb401b36f4414fe47f126e8cd4f5cc7e489de5be39d51cd",
+  "perangkat": "Windows AMD64 Python 3.13.7"
+}
