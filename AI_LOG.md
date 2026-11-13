@@ -8,3 +8,5 @@ melainkan "mengerti atau tidak" — isi kolom terakhir dengan apa yang Anda ubah
 |---|---|---|---|---|
 | 2026-11-03 | 12345678 | Copilot | kerangka DataLoader | ganti normalisasi, tambah seed worker |
 | 2026-11-08 | 124450048 | Antigravity AI | Desain kerangka skema panel Gold dan fungsi grid master | Menyesuaikan kode BPS 38 provinsi 2025, menambahkan penanganan kode 9999 nasional terpisah, dan menetapkan transformasi log1p untuk nilai kerugian/kerusakan |
+| 2026-11-13 | 124450044 | Antigravity AI | Mengatasi batasan MAX_PATH Windows serta membangun modul pembaca XLSX, JSON Datastore, CKAN, dan WDI dengan lineage | Memverifikasi multi-level header XLSX, memastikan forward-fill pada merged cells wilayah, memvalidasi paginasi JSON datastore, dan mengintegrasikan orkestrasi ekstraksi di pipeline |
+
