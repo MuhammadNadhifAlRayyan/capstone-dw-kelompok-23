@@ -93,6 +93,20 @@ def baca_metadata_ckan(raw: Path = RAW) -> pd.DataFrame:
     df["_sha256_raw"] = sha
     return df
 
+def baca_semua_bnpb_json(raw: Path = RAW) -> Dict[str, pd.DataFrame]:
+    """
+    Kembalikan kamus berisi 39 DataFrame:
+      - 38 berkas JSON datastore
+      - 1 berkas metadata CKAN
+    Setiap DataFrame mempunyai kolom lineage `_berkas_raw` & `_sha256_raw`.
+    """
+    # 38 berkas datastore
+    hasil = baca_semua_datastore(raw=raw)
+
+    # tambah metadata CKAN sebagai entri terpisah
+    hasil["ckan/package_search-pusdatinkom-01.json"] = baca_metadata_ckan(raw=raw)
+
+    return hasil
 
 if __name__ == "__main__":
     semua_ds = baca_semua_datastore()

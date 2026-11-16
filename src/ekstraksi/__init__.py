@@ -16,12 +16,20 @@ from src.ekstraksi.baca_datastore import (
 from src.ekstraksi.baca_wdi import baca_semua_wdi, baca_wdi_data
 from src.ekstraksi.baca_xlsx import baca_berkas_xlsx, baca_semua_xlsx
 
+from src.ekstraksi.baca_datastore import (
+    baca_berkas_datastore,
+    baca_semua_datastore,
+    baca_metadata_ckan,
+    baca_semua_bnpb_json,   # <-- tambah baris ini
+)
+
 __all__ = [
     "baca_berkas_xlsx",
     "baca_semua_xlsx",
     "baca_berkas_datastore",
     "baca_semua_datastore",
     "baca_metadata_ckan",
+    "baca_semua_bnpb_json",
     "baca_wdi_data",
     "baca_semua_wdi",
     "jalankan",
