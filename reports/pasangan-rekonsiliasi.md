@@ -42,6 +42,8 @@ Pertanyaan keterbandingan dan jawabannya:
 - Jenis: **konteks**; tahun beririsan: —
 - Dugaan kategori selisih (diuji di Sprint 2): periode dan konsep berbeda: WDI persen penduduk terdampak 1990–2009, BNPB unit rusak
 
+Metadata WDI menyebut indikator ini sebagai rata-rata periode 1990–2009. Snapshot berisi satu nilai Indonesia non-null, berlabel API `2009` (`0.16059`), bukan observasi tahunan yang dapat dipasangkan dengan BNPB. Rinciannya hanya agregat nasional; tidak tersedia pemisahan provinsi, jenis kelamin, atau umur. Kolom satuan API kosong, sementara nama indikator menyatakan `% of population`. Lihat [profil ketersediaan dan tabel irisan](tahap-2-ketersediaan-pembanding-wdi.md).
+
 Pertanyaan keterbandingan dan jawabannya:
 
 1. **Mengapa tidak dihitung selisihnya?** Konsep berbeda (penduduk vs rumah) dan tidak ada tahun yang sama.
