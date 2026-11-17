@@ -1,0 +1,1457 @@
+seri,periode,provinsi,sumber_pasangan,nilai_provinsi,jumlah_kabupaten_kota,selisih_kabupaten_minus_provinsi,status
+fasyankes_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,6.0,6.0,0.0,cocok
+fasyankes_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,15.0,15.0,0.0,cocok
+fasyankes_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+fasyankes_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,32.0,32.0,0.0,cocok
+fasyankes_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,127.0,127.0,0.0,cocok
+fasyankes_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+fasyankes_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+fasyankes_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+fasyankes_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,19.0,19.0,0.0,cocok
+fasyankes_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,177.0,177.0,0.0,cocok
+fasyankes_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+fasyankes_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,48.0,48.0,0.0,cocok
+fasyankes_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,6.0,6.0,0.0,cocok
+fasyankes_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+fasyankes_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+fasyankes_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+fasyankes_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+fasyankes_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+fasyankes_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+fasyankes_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,31.0,31.0,0.0,cocok
+fasyankes_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,25.0,25.0,0.0,cocok
+fasyankes_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+fasyankes_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+fasyankes_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+fasyankes_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,30.0,30.0,0.0,cocok
+fasyankes_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),2.0,2.0,0.0,cocok
+fasyankes_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),10.0,10.0,0.0,cocok
+fasyankes_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),2.0,2.0,0.0,cocok
+fasyankes_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),8.0,8.0,0.0,cocok
+fasyankes_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),1.0,1.0,0.0,cocok
+fasyankes_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),1.0,1.0,0.0,cocok
+fasyankes_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),29.0,29.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),5.0,5.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),16.0,16.0,0.0,cocok
+fasyankes_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),3.0,3.0,0.0,cocok
+fasyankes_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),5.0,5.0,0.0,cocok
+fasyankes_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+fasyankes_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (26858365/353da3aa),0.0,0.0,0.0,cocok
+jembatan_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,30.0,30.0,0.0,cocok
+jembatan_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+jembatan_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,9.0,9.0,0.0,cocok
+jembatan_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+jembatan_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,10.0,10.0,0.0,cocok
+jembatan_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+jembatan_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,39.0,39.0,0.0,cocok
+jembatan_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,8.0,8.0,0.0,cocok
+jembatan_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,23.0,23.0,0.0,cocok
+jembatan_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,23.0,23.0,0.0,cocok
+jembatan_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,53.0,53.0,0.0,cocok
+jembatan_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+jembatan_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+jembatan_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+jembatan_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,40.0,40.0,0.0,cocok
+jembatan_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,106.0,106.0,0.0,cocok
+jembatan_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,15.0,15.0,0.0,cocok
+jembatan_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,13.0,13.0,0.0,cocok
+jembatan_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,17.0,17.0,0.0,cocok
+jembatan_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,14.0,14.0,0.0,cocok
+jembatan_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,14.0,14.0,0.0,cocok
+jembatan_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,16.0,16.0,0.0,cocok
+jembatan_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,12.0,12.0,0.0,cocok
+jembatan_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,28.0,28.0,0.0,cocok
+jembatan_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,21.0,21.0,0.0,cocok
+jembatan_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,7.0,7.0,0.0,cocok
+jembatan_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,8.0,8.0,0.0,cocok
+jembatan_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,9.0,9.0,0.0,cocok
+jembatan_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,21.0,21.0,0.0,cocok
+jembatan_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,36.0,36.0,0.0,cocok
+jembatan_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,34.0,34.0,0.0,cocok
+jembatan_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,102.0,102.0,0.0,cocok
+jembatan_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,4.0,4.0,0.0,cocok
+jembatan_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+jembatan_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+jembatan_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,7.0,7.0,0.0,cocok
+jembatan_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+jembatan_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,10.0,10.0,0.0,cocok
+jembatan_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+jembatan_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,13.0,13.0,0.0,cocok
+jembatan_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,15.0,15.0,0.0,cocok
+jembatan_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,17.0,17.0,0.0,cocok
+jembatan_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+jembatan_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,9.0,9.0,0.0,cocok
+jembatan_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+jembatan_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+jembatan_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),5.0,5.0,0.0,cocok
+jembatan_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),21.0,21.0,0.0,cocok
+jembatan_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),15.0,15.0,0.0,cocok
+jembatan_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),7.0,7.0,0.0,cocok
+jembatan_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),7.0,7.0,0.0,cocok
+jembatan_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),36.0,36.0,0.0,cocok
+jembatan_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),37.0,37.0,0.0,cocok
+jembatan_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),2.0,2.0,0.0,cocok
+jembatan_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),9.0,9.0,0.0,cocok
+jembatan_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),2.0,2.0,0.0,cocok
+jembatan_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),5.0,5.0,0.0,cocok
+jembatan_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),5.0,5.0,0.0,cocok
+jembatan_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),6.0,6.0,0.0,cocok
+jembatan_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),4.0,4.0,0.0,cocok
+jembatan_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),4.0,4.0,0.0,cocok
+jembatan_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),0.0,0.0,0.0,cocok
+jembatan_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),1.0,1.0,0.0,cocok
+jembatan_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),2.0,2.0,0.0,cocok
+jembatan_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),30.0,30.0,0.0,cocok
+jembatan_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),9.0,9.0,0.0,cocok
+jembatan_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),3.0,3.0,0.0,cocok
+jembatan_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),5.0,5.0,0.0,cocok
+jembatan_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),159.0,159.0,0.0,cocok
+jembatan_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),30.0,30.0,0.0,cocok
+jembatan_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (ad86fca8/fdebc70a),34.0,34.0,0.0,cocok
+kantor_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,6.0,6.0,0.0,cocok
+kantor_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,13.0,13.0,0.0,cocok
+kantor_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,69.0,69.0,0.0,cocok
+kantor_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,197.0,197.0,0.0,cocok
+kantor_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+kantor_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+kantor_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,23.0,23.0,0.0,cocok
+kantor_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,219.0,219.0,0.0,cocok
+kantor_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,81.0,81.0,0.0,cocok
+kantor_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,9.0,9.0,0.0,cocok
+kantor_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,10.0,10.0,0.0,cocok
+kantor_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+kantor_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+kantor_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,4.0,4.0,0.0,cocok
+kantor_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,14.0,14.0,0.0,cocok
+kantor_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,44.0,44.0,0.0,cocok
+kantor_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,4.0,4.0,0.0,cocok
+kantor_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+kantor_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+kantor_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,9.0,9.0,0.0,cocok
+kantor_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+kantor_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,46.0,46.0,0.0,cocok
+kantor_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+kantor_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,25.0,25.0,0.0,cocok
+kantor_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),2.0,2.0,0.0,cocok
+kantor_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),2.0,2.0,0.0,cocok
+kantor_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),3.0,3.0,0.0,cocok
+kantor_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),9.0,9.0,0.0,cocok
+kantor_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),46.0,46.0,0.0,cocok
+kantor_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),1.0,1.0,0.0,cocok
+kantor_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),11.0,11.0,0.0,cocok
+kantor_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),2.0,2.0,0.0,cocok
+kantor_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),2.0,2.0,0.0,cocok
+kantor_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),4.0,4.0,0.0,cocok
+kantor_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),4.0,4.0,0.0,cocok
+kantor_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),0.0,0.0,0.0,cocok
+kantor_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (091da066/caefcb96),3.0,3.0,0.0,cocok
+kejadian,2010,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,53.0,63.0,10.0,berbeda
+kejadian,2010,BALI,historis 2010-2024: dataset provinsi vs kabupaten,16.0,16.0,0.0,cocok
+kejadian,2010,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,34.0,34.0,0.0,cocok
+kejadian,2010,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2010,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,20.0,21.0,1.0,berbeda
+kejadian,2010,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,14.0,16.0,2.0,berbeda
+kejadian,2010,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2010,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,31.0,33.0,2.0,berbeda
+kejadian,2010,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,355.0,357.0,2.0,berbeda
+kejadian,2010,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,450.0,454.0,4.0,berbeda
+kejadian,2010,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,288.0,290.0,2.0,berbeda
+kejadian,2010,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,22.0,24.0,2.0,berbeda
+kejadian,2010,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,39.0,46.0,7.0,berbeda
+kejadian,2010,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2010,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,44.0,44.0,0.0,cocok
+kejadian,2010,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2010,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2010,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2010,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,43.0,43.0,0.0,cocok
+kejadian,2010,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2010,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2010,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,24.0,25.0,1.0,berbeda
+kejadian,2010,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2010,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2010,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2010,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2010,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2010,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2010,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2010,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,9.0,12.0,3.0,berbeda
+kejadian,2010,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2010,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,107.0,113.0,6.0,berbeda
+kejadian,2010,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2010,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,89.0,89.0,0.0,cocok
+kejadian,2010,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2010,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,56.0,60.0,4.0,berbeda
+kejadian,2010,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,50.0,52.0,2.0,berbeda
+kejadian,2010,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2011,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,45.0,46.0,1.0,berbeda
+kejadian,2011,BALI,historis 2010-2024: dataset provinsi vs kabupaten,32.0,37.0,5.0,berbeda
+kejadian,2011,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,28.0,28.0,0.0,cocok
+kejadian,2011,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2011,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,24.0,24.0,0.0,cocok
+kejadian,2011,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2011,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2011,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,33.0,33.0,0.0,cocok
+kejadian,2011,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,187.0,187.0,0.0,cocok
+kejadian,2011,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,467.0,468.0,1.0,berbeda
+kejadian,2011,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,278.0,279.0,1.0,berbeda
+kejadian,2011,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2011,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,31.0,32.0,1.0,berbeda
+kejadian,2011,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,10.0,10.0,0.0,cocok
+kejadian,2011,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2011,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2011,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2011,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2011,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,25.0,25.0,0.0,cocok
+kejadian,2011,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2011,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2011,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,23.0,26.0,3.0,berbeda
+kejadian,2011,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2011,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2011,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2011,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2011,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2011,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2011,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2011,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2011,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2011,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,78.0,78.0,0.0,cocok
+kejadian,2011,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,14.0,14.0,0.0,cocok
+kejadian,2011,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2011,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2011,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,46.0,46.0,0.0,cocok
+kejadian,2011,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,36.0,37.0,1.0,berbeda
+kejadian,2011,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,43.0,45.0,2.0,berbeda
+kejadian,2012,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,78.0,86.0,8.0,berbeda
+kejadian,2012,BALI,historis 2010-2024: dataset provinsi vs kabupaten,53.0,53.0,0.0,cocok
+kejadian,2012,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,33.0,38.0,5.0,berbeda
+kejadian,2012,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2012,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,69.0,69.0,0.0,cocok
+kejadian,2012,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,10.0,11.0,1.0,berbeda
+kejadian,2012,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2012,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,57.0,57.0,0.0,cocok
+kejadian,2012,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,239.0,240.0,1.0,berbeda
+kejadian,2012,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,341.0,344.0,3.0,berbeda
+kejadian,2012,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,167.0,167.0,0.0,cocok
+kejadian,2012,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2012,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,66.0,66.0,0.0,cocok
+kejadian,2012,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2012,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,46.0,46.0,0.0,cocok
+kejadian,2012,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2012,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2012,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2012,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2012,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,14.0,14.0,0.0,cocok
+kejadian,2012,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2012,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,35.0,35.0,0.0,cocok
+kejadian,2012,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,26.0,26.0,0.0,cocok
+kejadian,2012,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2012,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2012,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2012,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2012,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2012,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2012,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2012,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2012,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,48.0,48.0,0.0,cocok
+kejadian,2012,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2012,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,99.0,99.0,0.0,cocok
+kejadian,2012,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,14.0,14.0,0.0,cocok
+kejadian,2012,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,91.0,91.0,0.0,cocok
+kejadian,2012,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,83.0,83.0,0.0,cocok
+kejadian,2012,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,64.0,64.0,0.0,cocok
+kejadian,2013,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,66.0,70.0,4.0,berbeda
+kejadian,2013,BALI,historis 2010-2024: dataset provinsi vs kabupaten,28.0,28.0,0.0,cocok
+kejadian,2013,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,28.0,32.0,4.0,berbeda
+kejadian,2013,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2013,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2013,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,37.0,8.0,berbeda
+kejadian,2013,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2013,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,29.0,30.0,1.0,berbeda
+kejadian,2013,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,278.0,278.0,0.0,cocok
+kejadian,2013,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,183.0,188.0,5.0,berbeda
+kejadian,2013,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,234.0,236.0,2.0,berbeda
+kejadian,2013,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2013,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,62.0,73.0,11.0,berbeda
+kejadian,2013,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2013,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,49.0,51.0,2.0,berbeda
+kejadian,2013,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2013,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2013,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,35.0,35.0,0.0,cocok
+kejadian,2013,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,32.0,32.0,0.0,cocok
+kejadian,2013,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2013,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2013,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,52.0,53.0,1.0,berbeda
+kejadian,2013,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,76.0,78.0,2.0,berbeda
+kejadian,2013,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2013,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2013,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2013,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2013,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2013,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2013,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,27.0,37.0,10.0,berbeda
+kejadian,2013,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2013,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,50.0,55.0,5.0,berbeda
+kejadian,2013,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2013,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2013,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2013,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,52.0,52.0,0.0,cocok
+kejadian,2013,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,67.0,67.0,0.0,cocok
+kejadian,2013,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,66.0,66.0,0.0,cocok
+kejadian,2014,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,57.0,58.0,1.0,berbeda
+kejadian,2014,BALI,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2014,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,38.0,39.0,1.0,berbeda
+kejadian,2014,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2014,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,24.0,24.0,0.0,cocok
+kejadian,2014,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,23.0,30.0,7.0,berbeda
+kejadian,2014,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2014,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,60.0,60.0,0.0,cocok
+kejadian,2014,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,553.0,553.0,0.0,cocok
+kejadian,2014,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,340.0,343.0,3.0,berbeda
+kejadian,2014,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,237.0,242.0,5.0,berbeda
+kejadian,2014,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2014,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2014,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2014,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,57.0,57.0,0.0,cocok
+kejadian,2014,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2014,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2014,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2014,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,32.0,32.0,0.0,cocok
+kejadian,2014,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2014,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2014,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2014,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,41.0,41.0,0.0,cocok
+kejadian,2014,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2014,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2014,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2014,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2014,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2014,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2014,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2014,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,7.0,7.0,0.0,cocok
+kejadian,2014,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,54.0,54.0,0.0,cocok
+kejadian,2014,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,31.0,31.0,0.0,cocok
+kejadian,2014,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,14.0,14.0,0.0,cocok
+kejadian,2014,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,19.0,23.0,4.0,berbeda
+kejadian,2014,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,58.0,59.0,1.0,berbeda
+kejadian,2014,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,64.0,64.0,0.0,cocok
+kejadian,2014,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,52.0,52.0,0.0,cocok
+kejadian,2015,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,90.0,90.0,0.0,cocok
+kejadian,2015,BALI,historis 2010-2024: dataset provinsi vs kabupaten,6.0,6.0,0.0,cocok
+kejadian,2015,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,63.0,63.0,0.0,cocok
+kejadian,2015,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,31.0,31.0,0.0,cocok
+kejadian,2015,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2015,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,11.0,6.0,berbeda
+kejadian,2015,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2015,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,14.0,14.0,0.0,cocok
+kejadian,2015,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,217.0,217.0,0.0,cocok
+kejadian,2015,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,390.0,390.0,0.0,cocok
+kejadian,2015,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,302.0,305.0,3.0,berbeda
+kejadian,2015,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2015,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2015,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2015,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,60.0,60.0,0.0,cocok
+kejadian,2015,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,7.0,7.0,0.0,cocok
+kejadian,2015,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2015,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2015,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2015,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2015,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,7.0,7.0,0.0,cocok
+kejadian,2015,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2015,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,27.0,27.0,0.0,cocok
+kejadian,2015,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2015,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2015,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2015,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2015,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2015,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2015,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2015,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,6.0,6.0,0.0,cocok
+kejadian,2015,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,47.0,47.0,0.0,cocok
+kejadian,2015,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2015,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2015,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2015,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,89.0,89.0,0.0,cocok
+kejadian,2015,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,45.0,45.0,0.0,cocok
+kejadian,2015,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,63.0,63.0,0.0,cocok
+kejadian,2016,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,83.0,85.0,2.0,berbeda
+kejadian,2016,BALI,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2016,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,31.0,31.0,0.0,cocok
+kejadian,2016,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2016,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2016,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,43.0,43.0,0.0,cocok
+kejadian,2016,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2016,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2016,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,306.0,306.0,0.0,cocok
+kejadian,2016,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,600.0,600.0,0.0,cocok
+kejadian,2016,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,406.0,407.0,1.0,berbeda
+kejadian,2016,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,22.0,22.0,0.0,cocok
+kejadian,2016,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2016,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2016,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,189.0,189.0,0.0,cocok
+kejadian,2016,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2016,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2016,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,16.0,16.0,0.0,cocok
+kejadian,2016,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2016,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2016,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,7.0,7.0,0.0,cocok
+kejadian,2016,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,26.0,27.0,1.0,berbeda
+kejadian,2016,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2016,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2016,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2016,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2016,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2016,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2016,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2016,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,25.0,25.0,0.0,cocok
+kejadian,2016,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2016,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,56.0,56.0,0.0,cocok
+kejadian,2016,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2016,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2016,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,16.0,16.0,0.0,cocok
+kejadian,2016,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,69.0,70.0,1.0,berbeda
+kejadian,2016,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,61.0,61.0,0.0,cocok
+kejadian,2016,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,73.0,73.0,0.0,cocok
+kejadian,2017,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,91.0,91.0,0.0,cocok
+kejadian,2017,BALI,historis 2010-2024: dataset provinsi vs kabupaten,29.0,37.0,8.0,berbeda
+kejadian,2017,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2017,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2017,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,25.0,26.0,1.0,berbeda
+kejadian,2017,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,15.0,15.0,0.0,cocok
+kejadian,2017,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2017,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2017,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,319.0,327.0,8.0,berbeda
+kejadian,2017,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,1071.0,1079.0,8.0,berbeda
+kejadian,2017,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,434.0,434.0,0.0,cocok
+kejadian,2017,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,27.0,27.0,0.0,cocok
+kejadian,2017,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,63.0,63.0,0.0,cocok
+kejadian,2017,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,50.0,50.0,0.0,cocok
+kejadian,2017,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2017,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2017,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2017,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2017,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2017,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2017,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,32.0,32.0,0.0,cocok
+kejadian,2017,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,71.0,71.0,0.0,cocok
+kejadian,2017,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2017,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2017,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2017,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2017,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2017,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2017,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2017,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,37.0,37.0,0.0,cocok
+kejadian,2017,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2017,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,71.0,71.0,0.0,cocok
+kejadian,2017,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,20.0,21.0,1.0,berbeda
+kejadian,2017,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,28.0,28.0,0.0,cocok
+kejadian,2017,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2017,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,61.0,62.0,1.0,berbeda
+kejadian,2017,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,61.0,61.0,0.0,cocok
+kejadian,2017,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,81.0,81.0,0.0,cocok
+kejadian,2018,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,218.0,218.0,0.0,cocok
+kejadian,2018,BALI,historis 2010-2024: dataset provinsi vs kabupaten,145.0,154.0,9.0,berbeda
+kejadian,2018,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,68.0,72.0,4.0,berbeda
+kejadian,2018,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2018,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,123.0,123.0,0.0,cocok
+kejadian,2018,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,33.0,35.0,2.0,berbeda
+kejadian,2018,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2018,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,28.0,28.0,0.0,cocok
+kejadian,2018,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,356.0,359.0,3.0,berbeda
+kejadian,2018,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,585.0,586.0,1.0,berbeda
+kejadian,2018,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,457.0,460.0,3.0,berbeda
+kejadian,2018,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,132.0,132.0,0.0,cocok
+kejadian,2018,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,96.0,96.0,0.0,cocok
+kejadian,2018,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,59.0,59.0,0.0,cocok
+kejadian,2018,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,32.0,32.0,0.0,cocok
+kejadian,2018,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2018,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,117.0,117.0,0.0,cocok
+kejadian,2018,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2018,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,33.0,37.0,4.0,berbeda
+kejadian,2018,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2018,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2018,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,75.0,87.0,12.0,berbeda
+kejadian,2018,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,185.0,185.0,0.0,cocok
+kejadian,2018,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,10.0,10.0,0.0,cocok
+kejadian,2018,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2018,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2018,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2018,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2018,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2018,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,54.0,54.0,0.0,cocok
+kejadian,2018,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2018,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,187.0,187.0,0.0,cocok
+kejadian,2018,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,10.0,13.0,3.0,berbeda
+kejadian,2018,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,25.0,25.0,0.0,cocok
+kejadian,2018,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,23.0,24.0,1.0,berbeda
+kejadian,2018,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,96.0,96.0,0.0,cocok
+kejadian,2018,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,77.0,77.0,0.0,cocok
+kejadian,2018,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,94.0,94.0,0.0,cocok
+kejadian,2019,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,180.0,180.0,0.0,cocok
+kejadian,2019,BALI,historis 2010-2024: dataset provinsi vs kabupaten,56.0,60.0,4.0,berbeda
+kejadian,2019,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,65.0,68.0,3.0,berbeda
+kejadian,2019,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,25.0,25.0,0.0,cocok
+kejadian,2019,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,31.0,2.0,berbeda
+kejadian,2019,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,6.0,7.0,1.0,berbeda
+kejadian,2019,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,6.0,6.0,0.0,cocok
+kejadian,2019,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,28.0,28.0,0.0,cocok
+kejadian,2019,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,699.0,705.0,6.0,berbeda
+kejadian,2019,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,926.0,926.0,0.0,cocok
+kejadian,2019,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,622.0,623.0,1.0,berbeda
+kejadian,2019,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,43.0,43.0,0.0,cocok
+kejadian,2019,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,154.0,157.0,3.0,berbeda
+kejadian,2019,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,76.0,76.0,0.0,cocok
+kejadian,2019,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,54.0,54.0,0.0,cocok
+kejadian,2019,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2019,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,22.0,22.0,0.0,cocok
+kejadian,2019,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,21.0,21.0,0.0,cocok
+kejadian,2019,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,51.0,51.0,0.0,cocok
+kejadian,2019,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,36.0,39.0,3.0,berbeda
+kejadian,2019,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2019,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,56.0,57.0,1.0,berbeda
+kejadian,2019,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2019,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2019,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2019,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2019,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2019,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2019,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2019,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,58.0,58.0,0.0,cocok
+kejadian,2019,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2019,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,164.0,164.0,0.0,cocok
+kejadian,2019,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,23.0,23.0,0.0,cocok
+kejadian,2019,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2019,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,18.0,19.0,1.0,berbeda
+kejadian,2019,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,103.0,103.0,0.0,cocok
+kejadian,2019,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,95.0,95.0,0.0,cocok
+kejadian,2019,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,71.0,71.0,0.0,cocok
+kejadian,2020,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,364.0,364.0,0.0,cocok
+kejadian,2020,BALI,historis 2010-2024: dataset provinsi vs kabupaten,93.0,93.0,0.0,cocok
+kejadian,2020,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,96.0,99.0,3.0,berbeda
+kejadian,2020,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,37.0,37.0,0.0,cocok
+kejadian,2020,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,36.0,37.0,1.0,berbeda
+kejadian,2020,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,22.0,60.0,38.0,berbeda
+kejadian,2020,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,25.0,25.0,0.0,cocok
+kejadian,2020,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,104.0,104.0,0.0,cocok
+kejadian,2020,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,942.0,953.0,11.0,berbeda
+kejadian,2020,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,1021.0,1024.0,3.0,berbeda
+kejadian,2020,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,251.0,251.0,0.0,cocok
+kejadian,2020,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,82.0,82.0,0.0,cocok
+kejadian,2020,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,193.0,193.0,0.0,cocok
+kejadian,2020,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,89.0,89.0,0.0,cocok
+kejadian,2020,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,115.0,120.0,5.0,berbeda
+kejadian,2020,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,76.0,76.0,0.0,cocok
+kejadian,2020,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,26.0,26.0,0.0,cocok
+kejadian,2020,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,64.0,64.0,0.0,cocok
+kejadian,2020,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,43.0,43.0,0.0,cocok
+kejadian,2020,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,27.0,27.0,0.0,cocok
+kejadian,2020,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,19.0,22.0,3.0,berbeda
+kejadian,2020,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,89.0,90.0,1.0,berbeda
+kejadian,2020,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,17.0,17.0,0.0,cocok
+kejadian,2020,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2020,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2020,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,6.0,6.0,0.0,cocok
+kejadian,2020,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2020,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2020,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2020,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,55.0,55.0,0.0,cocok
+kejadian,2020,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2020,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,163.0,163.0,0.0,cocok
+kejadian,2020,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,54.0,54.0,0.0,cocok
+kejadian,2020,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,16.0,16.0,0.0,cocok
+kejadian,2020,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2020,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,241.0,241.0,0.0,cocok
+kejadian,2020,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,90.0,90.0,0.0,cocok
+kejadian,2020,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,150.0,150.0,0.0,cocok
+kejadian,2021,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,279.0,279.0,0.0,cocok
+kejadian,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,279.0,279.0,0.0,cocok
+kejadian,2021,BALI,historis 2010-2024: dataset provinsi vs kabupaten,94.0,96.0,2.0,berbeda
+kejadian,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,94.0,96.0,2.0,berbeda
+kejadian,2021,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,113.0,116.0,3.0,berbeda
+kejadian,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,113.0,116.0,3.0,berbeda
+kejadian,2021,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,45.0,45.0,0.0,cocok
+kejadian,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,45.0,45.0,0.0,cocok
+kejadian,2021,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,26.0,27.0,1.0,berbeda
+kejadian,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,26.0,27.0,1.0,berbeda
+kejadian,2021,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,39.0,10.0,berbeda
+kejadian,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,29.0,37.0,8.0,berbeda
+kejadian,2021,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,39.0,39.0,0.0,cocok
+kejadian,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,39.0,39.0,0.0,cocok
+kejadian,2021,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,99.0,99.0,0.0,cocok
+kejadian,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,99.0,99.0,0.0,cocok
+kejadian,2021,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,1358.0,1359.0,1.0,berbeda
+kejadian,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,1357.9999999999993,1359.0,1.0000000000006821,berbeda
+kejadian,2021,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,622.0,622.0,0.0,cocok
+kejadian,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,622.0,622.0,0.0,cocok
+kejadian,2021,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,366.0,390.0,24.0,berbeda
+kejadian,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,366.0,390.0,24.0,berbeda
+kejadian,2021,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,69.0,69.0,0.0,cocok
+kejadian,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,69.0,69.0,0.0,cocok
+kejadian,2021,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,272.0,272.0,0.0,cocok
+kejadian,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,272.0,272.0,0.0,cocok
+kejadian,2021,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,94.0,94.0,0.0,cocok
+kejadian,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,94.0,94.0,0.0,cocok
+kejadian,2021,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,119.0,119.0,0.0,cocok
+kejadian,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,119.0,119.0,0.0,cocok
+kejadian,2021,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,60.0,60.0,0.0,cocok
+kejadian,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,60.0,60.0,0.0,cocok
+kejadian,2021,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,40.0,40.0,0.0,cocok
+kejadian,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,40.0,40.0,0.0,cocok
+kejadian,2021,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,107.0,107.0,0.0,cocok
+kejadian,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,107.0,107.0,0.0,cocok
+kejadian,2021,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,76.0,76.0,0.0,cocok
+kejadian,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,76.0,76.0,0.0,cocok
+kejadian,2021,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,67.0,70.0,3.0,berbeda
+kejadian,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,67.0,70.0,3.0,berbeda
+kejadian,2021,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,37.0,37.0,0.0,cocok
+kejadian,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,37.0,37.0,0.0,cocok
+kejadian,2021,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,112.0,112.0,0.0,cocok
+kejadian,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,112.0,112.0,0.0,cocok
+kejadian,2021,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,116.0,118.0,2.0,berbeda
+kejadian,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,116.0,118.0,2.0,berbeda
+kejadian,2021,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,23.0,23.0,0.0,cocok
+kejadian,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,30.0,30.0,0.0,cocok
+kejadian,2021,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,8.0,8.0,0.0,cocok
+kejadian,2021,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2021,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2021,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2021,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2021,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,148.0,148.0,0.0,cocok
+kejadian,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,148.0,148.0,0.0,cocok
+kejadian,2021,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,45.0,48.0,3.0,berbeda
+kejadian,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,45.0,48.0,3.0,berbeda
+kejadian,2021,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,186.0,186.0,0.0,cocok
+kejadian,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,186.0,186.0,0.0,cocok
+kejadian,2021,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,149.0,150.0,1.0,berbeda
+kejadian,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,148.99999999999997,150.0,1.0000000000000284,berbeda
+kejadian,2021,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,73.0,73.0,0.0,cocok
+kejadian,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,73.0,73.0,0.0,cocok
+kejadian,2021,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,48.0,48.0,0.0,cocok
+kejadian,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,48.0,48.0,0.0,cocok
+kejadian,2021,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,212.0,212.0,0.0,cocok
+kejadian,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,212.0,212.0,0.0,cocok
+kejadian,2021,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,92.0,92.0,0.0,cocok
+kejadian,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,92.0,92.0,0.0,cocok
+kejadian,2021,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,173.0,173.0,0.0,cocok
+kejadian,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,173.0,173.0,0.0,cocok
+kejadian,2022,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,222.0,222.0,0.0,cocok
+kejadian,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,222.0,222.0,0.0,cocok
+kejadian,2022,BALI,historis 2010-2024: dataset provinsi vs kabupaten,35.0,35.0,0.0,cocok
+kejadian,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,35.0,35.0,0.0,cocok
+kejadian,2022,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,81.0,84.0,3.0,berbeda
+kejadian,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,81.0,84.0,3.0,berbeda
+kejadian,2022,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,45.0,45.0,0.0,cocok
+kejadian,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,45.0,45.0,0.0,cocok
+kejadian,2022,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,29.0,29.0,0.0,cocok
+kejadian,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,29.0,29.0,0.0,cocok
+kejadian,2022,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,17.0,27.0,10.0,berbeda
+kejadian,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,17.0,27.0,10.0,berbeda
+kejadian,2022,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,33.0,33.0,0.0,cocok
+kejadian,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,33.0,33.0,0.0,cocok
+kejadian,2022,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,9.0,9.0,0.0,cocok
+kejadian,2022,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,825.0,833.0,8.0,berbeda
+kejadian,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,825.0,833.0,8.0,berbeda
+kejadian,2022,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,488.0,488.0,0.0,cocok
+kejadian,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,488.0,488.0,0.0,cocok
+kejadian,2022,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,400.0,400.0,0.0,cocok
+kejadian,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,400.0,400.0,0.0,cocok
+kejadian,2022,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,57.0,61.0,4.0,berbeda
+kejadian,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,57.0,61.0,4.0,berbeda
+kejadian,2022,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,107.0,109.0,2.0,berbeda
+kejadian,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,107.0,109.0,2.0,berbeda
+kejadian,2022,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,77.0,88.0,11.0,berbeda
+kejadian,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,77.0,88.0,11.0,berbeda
+kejadian,2022,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,46.0,46.0,0.0,cocok
+kejadian,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,46.0,46.0,0.0,cocok
+kejadian,2022,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,22.0,22.0,0.0,cocok
+kejadian,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,22.0,22.0,0.0,cocok
+kejadian,2022,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,47.0,47.0,0.0,cocok
+kejadian,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,47.0,47.0,0.0,cocok
+kejadian,2022,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,11.0,11.0,0.0,cocok
+kejadian,2022,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,71.0,71.0,0.0,cocok
+kejadian,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,71.0,71.0,0.0,cocok
+kejadian,2022,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,33.0,33.0,0.0,cocok
+kejadian,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,33.0,33.0,0.0,cocok
+kejadian,2022,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,45.0,45.0,0.0,cocok
+kejadian,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,45.0,45.0,0.0,cocok
+kejadian,2022,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,47.0,47.0,0.0,cocok
+kejadian,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,47.0,47.0,0.0,cocok
+kejadian,2022,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,45.0,45.0,0.0,cocok
+kejadian,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,45.0,45.0,0.0,cocok
+kejadian,2022,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,7.0,7.0,0.0,cocok
+kejadian,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,8.0,8.0,0.0,cocok
+kejadian,2022,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,13.0,13.0,0.0,cocok
+kejadian,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,21.0,21.0,0.0,cocok
+kejadian,2022,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,8.0,8.0,0.0,cocok
+kejadian,2022,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2022,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2022,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,0.0,0.0,0.0,cocok
+kejadian,2022,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,96.0,96.0,0.0,cocok
+kejadian,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,96.0,96.0,0.0,cocok
+kejadian,2022,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,35.0,36.0,1.0,berbeda
+kejadian,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,35.0,36.0,1.0,berbeda
+kejadian,2022,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,145.0,145.0,0.0,cocok
+kejadian,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,145.0,145.0,0.0,cocok
+kejadian,2022,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,99.0,99.0,0.0,cocok
+kejadian,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,99.0,99.0,0.0,cocok
+kejadian,2022,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,26.0,26.0,0.0,cocok
+kejadian,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,26.0,26.0,0.0,cocok
+kejadian,2022,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,38.0,38.0,0.0,cocok
+kejadian,2022,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,78.0,82.0,4.0,berbeda
+kejadian,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,78.0,82.0,4.0,berbeda
+kejadian,2022,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,103.0,104.0,1.0,berbeda
+kejadian,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,103.0,104.0,1.0,berbeda
+kejadian,2022,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,107.0,110.0,3.0,berbeda
+kejadian,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,107.0,110.0,3.0,berbeda
+kejadian,2023,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,236.0,236.0,0.0,cocok
+kejadian,2023,BALI,historis 2010-2024: dataset provinsi vs kabupaten,67.0,68.0,1.0,berbeda
+kejadian,2023,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,62.0,62.0,0.0,cocok
+kejadian,2023,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,38.0,38.0,0.0,cocok
+kejadian,2023,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,177.0,182.0,5.0,berbeda
+kejadian,2023,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,17.0,18.0,1.0,berbeda
+kejadian,2023,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,53.0,56.0,3.0,berbeda
+kejadian,2023,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,93.0,99.0,6.0,berbeda
+kejadian,2023,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,844.0,849.0,5.0,berbeda
+kejadian,2023,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,629.0,650.0,21.0,berbeda
+kejadian,2023,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,136.0,141.0,5.0,berbeda
+kejadian,2023,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,116.0,129.0,13.0,berbeda
+kejadian,2023,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,539.0,551.0,12.0,berbeda
+kejadian,2023,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,202.0,214.0,12.0,berbeda
+kejadian,2023,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,252.0,252.0,0.0,cocok
+kejadian,2023,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,75.0,75.0,0.0,cocok
+kejadian,2023,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,125.0,128.0,3.0,berbeda
+kejadian,2023,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,105.0,105.0,0.0,cocok
+kejadian,2023,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,74.0,74.0,0.0,cocok
+kejadian,2023,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,49.0,50.0,1.0,berbeda
+kejadian,2023,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,43.0,44.0,1.0,berbeda
+kejadian,2023,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,156.0,156.0,0.0,cocok
+kejadian,2023,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,113.0,115.0,2.0,berbeda
+kejadian,2023,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,11.0,11.0,0.0,cocok
+kejadian,2023,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,9.0,9.0,0.0,cocok
+kejadian,2023,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2023,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2023,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,2.0,2.0,0.0,cocok
+kejadian,2023,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,1.0,1.0,0.0,cocok
+kejadian,2023,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,260.0,268.0,8.0,berbeda
+kejadian,2023,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,60.0,60.0,0.0,cocok
+kejadian,2023,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,267.0,267.0,0.0,cocok
+kejadian,2023,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,105.0,107.0,2.0,berbeda
+kejadian,2023,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,12.0,12.0,0.0,cocok
+kejadian,2023,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,32.0,32.0,0.0,cocok
+kejadian,2023,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,136.0,137.0,1.0,berbeda
+kejadian,2023,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,85.0,96.0,11.0,berbeda
+kejadian,2023,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,217.0,218.0,1.0,berbeda
+kejadian,2024,ACEH,historis 2010-2024: dataset provinsi vs kabupaten,99.0,99.0,0.0,cocok
+kejadian,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),99.0,99.0,0.0,cocok
+kejadian,2024,BALI,historis 2010-2024: dataset provinsi vs kabupaten,35.0,37.0,2.0,berbeda
+kejadian,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),35.0,37.0,2.0,berbeda
+kejadian,2024,BANTEN,historis 2010-2024: dataset provinsi vs kabupaten,97.0,97.0,0.0,cocok
+kejadian,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),97.0,97.0,0.0,cocok
+kejadian,2024,BENGKULU,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),18.0,18.0,0.0,cocok
+kejadian,2024,DAERAH ISTIMEWA YOGYAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,62.0,65.0,3.0,berbeda
+kejadian,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),62.0,65.0,3.0,berbeda
+kejadian,2024,DKI JAKARTA,historis 2010-2024: dataset provinsi vs kabupaten,23.0,27.0,4.0,berbeda
+kejadian,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),23.0,27.0,4.0,berbeda
+kejadian,2024,GORONTALO,historis 2010-2024: dataset provinsi vs kabupaten,35.0,35.0,0.0,cocok
+kejadian,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),35.0,35.0,0.0,cocok
+kejadian,2024,JAMBI,historis 2010-2024: dataset provinsi vs kabupaten,132.0,132.0,0.0,cocok
+kejadian,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),132.0,132.0,0.0,cocok
+kejadian,2024,JAWA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,457.0,485.0,28.0,berbeda
+kejadian,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),457.0,485.0,28.0,berbeda
+kejadian,2024,JAWA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,231.0,233.0,2.0,berbeda
+kejadian,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),231.0,233.0,2.0,berbeda
+kejadian,2024,JAWA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,434.0,440.0,6.0,berbeda
+kejadian,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),434.0,440.0,6.0,berbeda
+kejadian,2024,KALIMANTAN BARAT,historis 2010-2024: dataset provinsi vs kabupaten,69.0,69.0,0.0,cocok
+kejadian,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),69.0,69.0,0.0,cocok
+kejadian,2024,KALIMANTAN SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,26.0,26.0,0.0,cocok
+kejadian,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),26.0,26.0,0.0,cocok
+kejadian,2024,KALIMANTAN TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,56.0,56.0,0.0,cocok
+kejadian,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),56.0,56.0,0.0,cocok
+kejadian,2024,KALIMANTAN TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,144.0,144.0,0.0,cocok
+kejadian,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),144.0,144.0,0.0,cocok
+kejadian,2024,KALIMANTAN UTARA,historis 2010-2024: dataset provinsi vs kabupaten,10.0,10.0,0.0,cocok
+kejadian,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),10.0,10.0,0.0,cocok
+kejadian,2024,KEPULAUAN BANGKA BELITUNG,historis 2010-2024: dataset provinsi vs kabupaten,24.0,24.0,0.0,cocok
+kejadian,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),24.0,24.0,0.0,cocok
+kejadian,2024,KEPULAUAN RIAU,historis 2010-2024: dataset provinsi vs kabupaten,79.0,79.0,0.0,cocok
+kejadian,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),79.0,79.0,0.0,cocok
+kejadian,2024,LAMPUNG,historis 2010-2024: dataset provinsi vs kabupaten,60.0,60.0,0.0,cocok
+kejadian,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),60.0,60.0,0.0,cocok
+kejadian,2024,MALUKU,historis 2010-2024: dataset provinsi vs kabupaten,36.0,36.0,0.0,cocok
+kejadian,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),36.0,36.0,0.0,cocok
+kejadian,2024,MALUKU UTARA,historis 2010-2024: dataset provinsi vs kabupaten,55.0,56.0,1.0,berbeda
+kejadian,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),55.0,56.0,1.0,berbeda
+kejadian,2024,NUSA TENGGARA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,77.0,77.0,0.0,cocok
+kejadian,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),77.0,77.0,0.0,cocok
+kejadian,2024,NUSA TENGGARA TIMUR,historis 2010-2024: dataset provinsi vs kabupaten,53.0,53.0,0.0,cocok
+kejadian,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),53.0,53.0,0.0,cocok
+kejadian,2024,PAPUA,historis 2010-2024: dataset provinsi vs kabupaten,19.0,19.0,0.0,cocok
+kejadian,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),19.0,19.0,0.0,cocok
+kejadian,2024,PAPUA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,18.0,18.0,0.0,cocok
+kejadian,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),18.0,18.0,0.0,cocok
+kejadian,2024,PAPUA BARAT DAYA,historis 2010-2024: dataset provinsi vs kabupaten,4.0,4.0,0.0,cocok
+kejadian,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),4.0,4.0,0.0,cocok
+kejadian,2024,PAPUA PEGUNUNGAN,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),3.0,3.0,0.0,cocok
+kejadian,2024,PAPUA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,3.0,3.0,0.0,cocok
+kejadian,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),3.0,3.0,0.0,cocok
+kejadian,2024,PAPUA TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,5.0,5.0,0.0,cocok
+kejadian,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),5.0,5.0,0.0,cocok
+kejadian,2024,RIAU,historis 2010-2024: dataset provinsi vs kabupaten,68.0,68.0,0.0,cocok
+kejadian,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),68.0,68.0,0.0,cocok
+kejadian,2024,SULAWESI BARAT,historis 2010-2024: dataset provinsi vs kabupaten,22.0,22.0,0.0,cocok
+kejadian,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),22.0,22.0,0.0,cocok
+kejadian,2024,SULAWESI SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,165.0,165.0,0.0,cocok
+kejadian,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),165.0,165.0,0.0,cocok
+kejadian,2024,SULAWESI TENGAH,historis 2010-2024: dataset provinsi vs kabupaten,94.0,94.0,0.0,cocok
+kejadian,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),94.0,94.0,0.0,cocok
+kejadian,2024,SULAWESI TENGGARA,historis 2010-2024: dataset provinsi vs kabupaten,20.0,20.0,0.0,cocok
+kejadian,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),20.0,20.0,0.0,cocok
+kejadian,2024,SULAWESI UTARA,historis 2010-2024: dataset provinsi vs kabupaten,23.0,23.0,0.0,cocok
+kejadian,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),23.0,23.0,0.0,cocok
+kejadian,2024,SUMATERA BARAT,historis 2010-2024: dataset provinsi vs kabupaten,98.0,98.0,0.0,cocok
+kejadian,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),98.0,98.0,0.0,cocok
+kejadian,2024,SUMATERA SELATAN,historis 2010-2024: dataset provinsi vs kabupaten,271.0,271.0,0.0,cocok
+kejadian,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),271.0,271.0,0.0,cocok
+kejadian,2024,SUMATERA UTARA,historis 2010-2024: dataset provinsi vs kabupaten,350.0,350.0,0.0,cocok
+kejadian,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (f345ba43/5ff9f41f),350.0,350.0,0.0,cocok
+kios_toko_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),2.0,2.0,0.0,cocok
+kios_toko_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),40.0,40.0,0.0,cocok
+kios_toko_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),1.0,1.0,0.0,cocok
+kios_toko_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),8.0,8.0,0.0,cocok
+kios_toko_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),14.0,14.0,0.0,cocok
+kios_toko_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),87.0,87.0,0.0,cocok
+kios_toko_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),1.0,1.0,0.0,cocok
+kios_toko_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),1.0,1.0,0.0,cocok
+kios_toko_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),10.0,10.0,0.0,cocok
+kios_toko_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),5.0,5.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),3.0,3.0,0.0,cocok
+kios_toko_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),50.0,50.0,0.0,cocok
+kios_toko_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),0.0,0.0,0.0,cocok
+kios_toko_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (cbc56396/135f1962),3.0,3.0,0.0,cocok
+pabrik_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),2.0,2.0,0.0,cocok
+pabrik_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),4.0,4.0,0.0,cocok
+pabrik_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),90.0,90.0,0.0,cocok
+pabrik_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+pabrik_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (5f69273d/11ba1fdc),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,8.0,8.0,0.0,cocok
+rumah_ibadat_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,555.0,555.0,0.0,cocok
+rumah_ibadat_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,8.0,8.0,0.0,cocok
+rumah_ibadat_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,147.0,147.0,0.0,cocok
+rumah_ibadat_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,18.0,18.0,0.0,cocok
+rumah_ibadat_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,277.0,277.0,0.0,cocok
+rumah_ibadat_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,531.0,531.0,0.0,cocok
+rumah_ibadat_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,16.0,16.0,0.0,cocok
+rumah_ibadat_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,12.0,12.0,0.0,cocok
+rumah_ibadat_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,7.0,7.0,0.0,cocok
+rumah_ibadat_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,14.0,14.0,0.0,cocok
+rumah_ibadat_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,429.0,429.0,0.0,cocok
+rumah_ibadat_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+rumah_ibadat_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,11.0,11.0,0.0,cocok
+rumah_ibadat_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,99.0,99.0,0.0,cocok
+rumah_ibadat_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,20.0,20.0,0.0,cocok
+rumah_ibadat_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,17.0,17.0,0.0,cocok
+rumah_ibadat_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+rumah_ibadat_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,12.0,12.0,0.0,cocok
+rumah_ibadat_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,28.0,28.0,0.0,cocok
+rumah_ibadat_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+rumah_ibadat_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,42.0,42.0,0.0,cocok
+rumah_ibadat_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,55.0,55.0,0.0,cocok
+rumah_ibadat_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,6.0,6.0,0.0,cocok
+rumah_ibadat_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,339.0,339.0,0.0,cocok
+rumah_ibadat_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,13.0,13.0,0.0,cocok
+rumah_ibadat_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,14.0,14.0,0.0,cocok
+rumah_ibadat_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,10.0,10.0,0.0,cocok
+rumah_ibadat_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,6.0,6.0,0.0,cocok
+rumah_ibadat_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,6.0,6.0,0.0,cocok
+rumah_ibadat_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+rumah_ibadat_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,55.0,55.0,0.0,cocok
+rumah_ibadat_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,72.0,72.0,0.0,cocok
+rumah_ibadat_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),9.0,9.0,0.0,cocok
+rumah_ibadat_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),16.0,16.0,0.0,cocok
+rumah_ibadat_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),5.0,5.0,0.0,cocok
+rumah_ibadat_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),70.0,70.0,0.0,cocok
+rumah_ibadat_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),25.0,25.0,0.0,cocok
+rumah_ibadat_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),220.0,220.0,0.0,cocok
+rumah_ibadat_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),9.0,9.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),7.0,7.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),3.0,3.0,0.0,cocok
+rumah_ibadat_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),2.0,2.0,0.0,cocok
+rumah_ibadat_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),4.0,4.0,0.0,cocok
+rumah_ibadat_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),0.0,0.0,0.0,cocok
+rumah_ibadat_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),15.0,15.0,0.0,cocok
+rumah_ibadat_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),1.0,1.0,0.0,cocok
+rumah_ibadat_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (200c487f/d81153ed),10.0,10.0,0.0,cocok
+rumah_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,547.0,547.0,0.0,cocok
+rumah_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,1784.0,1784.0,0.0,cocok
+rumah_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,539.0,539.0,0.0,cocok
+rumah_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,90.0,90.0,0.0,cocok
+rumah_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,42.0,42.0,0.0,cocok
+rumah_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,134.0,134.0,0.0,cocok
+rumah_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,47.0,47.0,0.0,cocok
+rumah_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,265.0,265.0,0.0,cocok
+rumah_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,6867.0,6867.0,0.0,cocok
+rumah_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,4305.0,4305.0,0.0,cocok
+rumah_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,22043.0,22043.0,0.0,cocok
+rumah_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,114.0,114.0,0.0,cocok
+rumah_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,21457.0,21457.0,0.0,cocok
+rumah_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,37.0,37.0,0.0,cocok
+rumah_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,143.0,143.0,0.0,cocok
+rumah_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,90.0,90.0,0.0,cocok
+rumah_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,366.0,366.0,0.0,cocok
+rumah_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,98.0,98.0,0.0,cocok
+rumah_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,2055.0,2055.0,0.0,cocok
+rumah_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,837.0,837.0,0.0,cocok
+rumah_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,1338.0,1338.0,0.0,cocok
+rumah_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,7440.0,7440.0,0.0,cocok
+rumah_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,57008.0,57008.0,0.0,cocok
+rumah_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,376.0,376.0,0.0,cocok
+rumah_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,32.0,32.0,0.0,cocok
+rumah_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,5174.0,5174.0,0.0,cocok
+rumah_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,16201.0,16201.0,0.0,cocok
+rumah_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,2981.0,2981.0,0.0,cocok
+rumah_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,1031.0,1031.0,0.0,cocok
+rumah_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,385.0,385.0,0.0,cocok
+rumah_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,677.0,677.0,0.0,cocok
+rumah_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,653.0,653.0,0.0,cocok
+rumah_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,1359.0,1359.0,0.0,cocok
+rumah_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,2144.0,2144.0,0.0,cocok
+rumah_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,1032.0,1032.0,0.0,cocok
+rumah_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,402.0,402.0,0.0,cocok
+rumah_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,3516.0,3516.0,0.0,cocok
+rumah_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,56.0,56.0,0.0,cocok
+rumah_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,694.0,694.0,0.0,cocok
+rumah_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+rumah_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,5.0,5.0,0.0,cocok
+rumah_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+rumah_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,64978.0,64978.0,0.0,cocok
+rumah_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,3925.0,3925.0,0.0,cocok
+rumah_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,2667.0,2667.0,0.0,cocok
+rumah_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,36.0,36.0,0.0,cocok
+rumah_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,230.0,230.0,0.0,cocok
+rumah_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,31.0,31.0,0.0,cocok
+rumah_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,47.0,47.0,0.0,cocok
+rumah_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,37.0,37.0,0.0,cocok
+rumah_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,689.0,689.0,0.0,cocok
+rumah_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,10.0,10.0,0.0,cocok
+rumah_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,530.0,530.0,0.0,cocok
+rumah_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,188.0,188.0,0.0,cocok
+rumah_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,603.0,603.0,0.0,cocok
+rumah_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,954.0,954.0,0.0,cocok
+rumah_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,1023.0,1023.0,0.0,cocok
+rumah_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,1824.0,1824.0,0.0,cocok
+rumah_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,259.0,259.0,0.0,cocok
+rumah_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,153.0,153.0,0.0,cocok
+rumah_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,764.0,764.0,0.0,cocok
+rumah_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,1156.0,1156.0,0.0,cocok
+rumah_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,702.0,702.0,0.0,cocok
+rumah_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,106.0,106.0,0.0,cocok
+rumah_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,91.0,91.0,0.0,cocok
+rumah_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,5797.0,5797.0,0.0,cocok
+rumah_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,684.0,684.0,0.0,cocok
+rumah_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2211.0,2211.0,0.0,cocok
+rumah_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),343.0,343.0,0.0,cocok
+rumah_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),311.0,311.0,0.0,cocok
+rumah_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),909.0,909.0,0.0,cocok
+rumah_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),517.0,517.0,0.0,cocok
+rumah_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),1805.0,1805.0,0.0,cocok
+rumah_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),86.0,36.0,-50.0,berbeda
+rumah_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),126.0,126.0,0.0,cocok
+rumah_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),561.0,561.0,0.0,cocok
+rumah_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),30228.0,30278.0,50.0,berbeda
+rumah_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),5547.0,5547.0,0.0,cocok
+rumah_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),11148.0,11148.0,0.0,cocok
+rumah_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),53.0,53.0,0.0,cocok
+rumah_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),45.0,45.0,0.0,cocok
+rumah_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),0.0,0.0,0.0,cocok
+rumah_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),233.0,233.0,0.0,cocok
+rumah_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),792.0,792.0,0.0,cocok
+rumah_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),39.0,39.0,0.0,cocok
+rumah_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),859.0,859.0,0.0,cocok
+rumah_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),613.0,613.0,0.0,cocok
+rumah_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),356.0,356.0,0.0,cocok
+rumah_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),316.0,316.0,0.0,cocok
+rumah_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),753.0,753.0,0.0,cocok
+rumah_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),2840.0,2840.0,0.0,cocok
+rumah_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),317.0,317.0,0.0,cocok
+rumah_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),67.0,67.0,0.0,cocok
+rumah_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),40.0,40.0,0.0,cocok
+rumah_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),1190.0,1190.0,0.0,cocok
+rumah_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),849.0,849.0,0.0,cocok
+rumah_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),0.0,0.0,0.0,cocok
+rumah_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),211.0,211.0,0.0,cocok
+rumah_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),325.0,325.0,0.0,cocok
+rumah_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),1359.0,1359.0,0.0,cocok
+rumah_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),724.0,724.0,0.0,cocok
+rumah_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),88.0,88.0,0.0,cocok
+rumah_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),884.0,884.0,0.0,cocok
+rumah_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),13010.0,13010.0,0.0,cocok
+rumah_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),1422.0,1422.0,0.0,cocok
+rumah_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (b5e3d843/5c9f7ea9),1338.0,1338.0,0.0,cocok
+rumah_terendam,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,61173.0,61173.0,0.0,cocok
+rumah_terendam,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,115.0,115.0,0.0,cocok
+rumah_terendam,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,15937.0,15937.0,0.0,cocok
+rumah_terendam,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,6548.0,6548.0,0.0,cocok
+rumah_terendam,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,132.0,132.0,0.0,cocok
+rumah_terendam,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,1516.0,1516.0,0.0,cocok
+rumah_terendam,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,14613.0,14613.0,0.0,cocok
+rumah_terendam,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,3586.0,3586.0,0.0,cocok
+rumah_terendam,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,321650.0,321650.0,0.0,cocok
+rumah_terendam,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,126798.0,126798.0,0.0,cocok
+rumah_terendam,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,86390.0,86390.0,0.0,cocok
+rumah_terendam,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,157881.0,157881.0,0.0,cocok
+rumah_terendam,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,253000.0,253000.0,0.0,cocok
+rumah_terendam,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,84695.0,84695.0,0.0,cocok
+rumah_terendam,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,13900.0,13900.0,0.0,cocok
+rumah_terendam,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,4785.0,4785.0,0.0,cocok
+rumah_terendam,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,2220.0,2220.0,0.0,cocok
+rumah_terendam,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,1795.0,1795.0,0.0,cocok
+rumah_terendam,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,3980.0,3980.0,0.0,cocok
+rumah_terendam,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,1778.0,1778.0,0.0,cocok
+rumah_terendam,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,1484.0,1484.0,0.0,cocok
+rumah_terendam,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,24284.0,24284.0,0.0,cocok
+rumah_terendam,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,51490.0,51490.0,0.0,cocok
+rumah_terendam,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,3232.0,3232.0,0.0,cocok
+rumah_terendam,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,36.0,36.0,0.0,cocok
+rumah_terendam,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,7003.0,7003.0,0.0,cocok
+rumah_terendam,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,1185.0,1185.0,0.0,cocok
+rumah_terendam,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,44050.0,44050.0,0.0,cocok
+rumah_terendam,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,4571.0,4571.0,0.0,cocok
+rumah_terendam,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,1480.0,1480.0,0.0,cocok
+rumah_terendam,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,10852.0,10852.0,0.0,cocok
+rumah_terendam,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,23727.0,23727.0,0.0,cocok
+rumah_terendam,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,8210.0,8210.0,0.0,cocok
+rumah_terendam,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,146731.0,146731.0,0.0,cocok
+rumah_terendam,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,107772.0,107772.0,0.0,cocok
+rumah_terendam,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,4192.0,4192.0,0.0,cocok
+rumah_terendam,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,43490.0,43490.0,0.0,cocok
+rumah_terendam,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,16457.0,16457.0,0.0,cocok
+rumah_terendam,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,622.0,622.0,0.0,cocok
+rumah_terendam,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,1346.0,1346.0,0.0,cocok
+rumah_terendam,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,9188.0,9188.0,0.0,cocok
+rumah_terendam,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,7839.0,7839.0,0.0,cocok
+rumah_terendam,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,79702.0,79702.0,0.0,cocok
+rumah_terendam,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,222949.0,222949.0,0.0,cocok
+rumah_terendam,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,95217.0,95217.0,0.0,cocok
+rumah_terendam,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,113504.0,113504.0,0.0,cocok
+rumah_terendam,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,30136.0,30136.0,0.0,cocok
+rumah_terendam,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,60445.0,60445.0,0.0,cocok
+rumah_terendam,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,72554.0,72554.0,0.0,cocok
+rumah_terendam,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,6103.0,6103.0,0.0,cocok
+rumah_terendam,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,111.0,111.0,0.0,cocok
+rumah_terendam,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,1496.0,1496.0,0.0,cocok
+rumah_terendam,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,7434.0,7434.0,0.0,cocok
+rumah_terendam,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,3520.0,3520.0,0.0,cocok
+rumah_terendam,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,3882.0,3882.0,0.0,cocok
+rumah_terendam,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,3892.0,3892.0,0.0,cocok
+rumah_terendam,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,5710.0,5710.0,0.0,cocok
+rumah_terendam,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,1544.0,1544.0,0.0,cocok
+rumah_terendam,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,623.0,623.0,0.0,cocok
+rumah_terendam,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,8541.0,8541.0,0.0,cocok
+rumah_terendam,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,16816.0,16816.0,0.0,cocok
+rumah_terendam,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,33041.0,33041.0,0.0,cocok
+rumah_terendam,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,11428.0,11428.0,0.0,cocok
+rumah_terendam,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,1207.0,1207.0,0.0,cocok
+rumah_terendam,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,5296.0,5296.0,0.0,cocok
+rumah_terendam,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,8392.0,8392.0,0.0,cocok
+rumah_terendam,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,13010.0,13010.0,0.0,cocok
+rumah_terendam,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,123502.0,123502.0,0.0,cocok
+satuan_pendidikan_rusak,2021,ACEH,rekap provinsi vs kabupaten/kota 2021 XLSX,17.0,17.0,0.0,cocok
+satuan_pendidikan_rusak,2021,BALI,rekap provinsi vs kabupaten/kota 2021 XLSX,26.0,26.0,0.0,cocok
+satuan_pendidikan_rusak,2021,BANTEN,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+satuan_pendidikan_rusak,2021,BENGKULU,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2021,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2021,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2021,GORONTALO,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2021,JAMBI,rekap provinsi vs kabupaten/kota 2021 XLSX,7.0,7.0,0.0,cocok
+satuan_pendidikan_rusak,2021,JAWA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,139.0,139.0,0.0,cocok
+satuan_pendidikan_rusak,2021,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,17.0,17.0,0.0,cocok
+satuan_pendidikan_rusak,2021,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,217.0,217.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,564.0,564.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,7.0,7.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2021,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2021,LAMPUNG,rekap provinsi vs kabupaten/kota 2021 XLSX,3.0,3.0,0.0,cocok
+satuan_pendidikan_rusak,2021,MALUKU,rekap provinsi vs kabupaten/kota 2021 XLSX,4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2021,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,7.0,7.0,0.0,cocok
+satuan_pendidikan_rusak,2021,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,59.0,59.0,0.0,cocok
+satuan_pendidikan_rusak,2021,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2021 XLSX,317.0,317.0,0.0,cocok
+satuan_pendidikan_rusak,2021,PAPUA,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2021,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2021,RIAU,rekap provinsi vs kabupaten/kota 2021 XLSX,5.0,5.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,231.0,231.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,31.0,31.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2021 XLSX,16.0,16.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2021 XLSX,6.0,6.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,19.0,19.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2021 XLSX,12.0,12.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2021 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2021,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2021 XLSX,38.0,38.0,0.0,cocok
+satuan_pendidikan_rusak,2022,ACEH,rekap provinsi vs kabupaten/kota 2022 XLSX,23.0,23.0,0.0,cocok
+satuan_pendidikan_rusak,2022,BALI,rekap provinsi vs kabupaten/kota 2022 XLSX,3.0,3.0,0.0,cocok
+satuan_pendidikan_rusak,2022,BANTEN,rekap provinsi vs kabupaten/kota 2022 XLSX,90.0,90.0,0.0,cocok
+satuan_pendidikan_rusak,2022,BENGKULU,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,DAERAH ISTIMEWA YOGYAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,7.0,7.0,0.0,cocok
+satuan_pendidikan_rusak,2022,DKI JAKARTA,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2022,GORONTALO,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,JAMBI,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,JAWA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,741.0,741.0,0.0,cocok
+satuan_pendidikan_rusak,2022,JAWA TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,29.0,29.0,0.0,cocok
+satuan_pendidikan_rusak,2022,JAWA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,11.0,11.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KALIMANTAN BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KALIMANTAN SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KALIMANTAN TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KALIMANTAN TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KALIMANTAN UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KEPULAUAN BANGKA BELITUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,KEPULAUAN RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,LAMPUNG,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2022,MALUKU,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,MALUKU UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,NUSA TENGGARA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,9.0,9.0,0.0,cocok
+satuan_pendidikan_rusak,2022,NUSA TENGGARA TIMUR,rekap provinsi vs kabupaten/kota 2022 XLSX,6.0,6.0,0.0,cocok
+satuan_pendidikan_rusak,2022,PAPUA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,PAPUA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,RIAU,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SULAWESI BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SULAWESI SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SULAWESI TENGAH,rekap provinsi vs kabupaten/kota 2022 XLSX,1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SULAWESI TENGGARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SULAWESI UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SUMATERA BARAT,rekap provinsi vs kabupaten/kota 2022 XLSX,248.0,248.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SUMATERA SELATAN,rekap provinsi vs kabupaten/kota 2022 XLSX,2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2022,SUMATERA UTARA,rekap provinsi vs kabupaten/kota 2022 XLSX,49.0,49.0,0.0,cocok
+satuan_pendidikan_rusak,2024,ACEH,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),3.0,3.0,0.0,cocok
+satuan_pendidikan_rusak,2024,BALI,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),5.0,5.0,0.0,cocok
+satuan_pendidikan_rusak,2024,BANTEN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2024,BENGKULU,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,DAERAH ISTIMEWA YOGYAKARTA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),21.0,21.0,0.0,cocok
+satuan_pendidikan_rusak,2024,DKI JAKARTA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,GORONTALO,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,JAMBI,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2024,JAWA BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),91.0,91.0,0.0,cocok
+satuan_pendidikan_rusak,2024,JAWA TENGAH,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),229.0,229.0,0.0,cocok
+satuan_pendidikan_rusak,2024,JAWA TIMUR,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),134.0,134.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KALIMANTAN BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KALIMANTAN SELATAN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KALIMANTAN TENGAH,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KALIMANTAN TIMUR,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KALIMANTAN UTARA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KEPULAUAN BANGKA BELITUNG,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,KEPULAUAN RIAU,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,LAMPUNG,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,MALUKU,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,MALUKU UTARA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,NUSA TENGGARA BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2024,NUSA TENGGARA TIMUR,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),29.0,29.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),4.0,4.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA BARAT DAYA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA PEGUNUNGAN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),21.0,21.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA SELATAN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,PAPUA TENGAH,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,RIAU,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),2.0,2.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SULAWESI BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SULAWESI SELATAN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),7.0,7.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SULAWESI TENGAH,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),3.0,3.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SULAWESI TENGGARA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),0.0,0.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SULAWESI UTARA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SUMATERA BARAT,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),21.0,21.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SUMATERA SELATAN,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),1.0,1.0,0.0,cocok
+satuan_pendidikan_rusak,2024,SUMATERA UTARA,tabel provinsi vs kabupaten/kota 2024 (76c8231d/8eea8adc),21.0,21.0,0.0,cocok
