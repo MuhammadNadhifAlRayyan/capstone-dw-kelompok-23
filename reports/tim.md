@@ -17,6 +17,15 @@ jumlah baris terdampak, keputusan, dan alternatif yang ditolak. Rujuk id di `log
 Seri utama vs pembanding nasional: selisih, penjelasannya (definisi, metode, vintage, granularitas),
 dan hasil analisis revisi dari arsip WDI.
 
+## Penyimpanan Silver (draf Tahap 5)
+Silver disimpan di SQLite karena ukuran kasus masih sesuai untuk basis data lokal satu berkas;
+SQLite tidak memerlukan server/dependensi tambahan, mendukung transaksi, tipe kolom, dan kunci primer.
+DuckDB lebih unggul untuk analitik kolumnar pada data besar, sementara PostgreSQL lebih cocok untuk
+akses serentak banyak pengguna, tetapi keduanya menambah konfigurasi yang belum dibutuhkan. JSON
+mentah tetap disimpan di Bronze karena mempertahankan bentuk respons dan atribut sumber; JSON lebih
+fleksibel, tetapi query terstruktur, penegakan tipe, dan deduplikasi lebih sulit. Tabel Silver
+menyimpan observasi ternormalisasi beserta hash dan jalur berkas sumber agar tetap dapat ditelusuri.
+
 ## Validasi dan reproduksibilitas
 Skema validasi (aturan, hasil lolos/gagal), waktu `python pipeline.py` dari nol, perbandingan pandas
 vs DuckDB/Dask, dan keterbatasan yang tersisa.
