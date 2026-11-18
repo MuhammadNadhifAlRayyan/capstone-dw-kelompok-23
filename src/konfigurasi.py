@@ -145,21 +145,19 @@ ANOMALI = {"k_iqr": 1.5, "min_titik_samping": 6, "lompat_relatif": 0.20, "porsi_
 PASANGAN = [
     dict(id="P1", judul="Rumah rusak banjir: baris INDONESIA vs jumlah 38 provinsi",
          utama="rumah_rusak", rincian_utama="jenis_bencana=banjir", pembanding=[("rumah_rusak", "jenis_bencana=banjir")],
-         jenis="selisih", metode="jumlah_provinsi",
-         kategori="seharusnya sama: satu rumah tidak dihitung di dua provinsi (berbeda dengan kejadian)",
+         jenis="selisih", kategori="seharusnya sama: satu rumah tidak dihitung di dua provinsi (berbeda dengan kejadian)",
          alasan_rincian="baris INDONESIA di tabel per jenis dibandingkan dengan jumlah baris provinsi di berkas yang sama",
          pertanyaan=[
              ("Bolehkah berbeda?", "Untuk kejadian boleh (kejadian lintas provinsi dihitung sekali secara nasional); untuk "
                                   "rumah rusak tidak, karena setiap rumah berada di satu provinsi."),
-             ("Dari berkas mana?", "Berkas tabel per jenis 2024 dan 2025 yang masing-masing memuat 38 provinsi dan baris INDONESIA."),
+             ("Dari berkas mana?", "Tabel per jenis 2024 dan 2025 (baris provinsi dan INDONESIA) dan tabel nasional 2010–2024."),
          ]),
     dict(id="P2", judul="Rumah rusak 2025: tabel per jenis vs rekap nasional (berat + sedang + ringan)",
          utama="rumah_rusak", rincian_utama="jenis_bencana=banjir",
          pembanding=[("rumah_rusak", "jenis_bencana=banjir;tingkat_kerusakan=berat"),
                      ("rumah_rusak", "jenis_bencana=banjir;tingkat_kerusakan=sedang"),
                      ("rumah_rusak", "jenis_bencana=banjir;tingkat_kerusakan=ringan")],
-         jenis="selisih", metode="jumlah_rincian",
-         kategori="seharusnya sama: dua tabel 2025 dari kompilasi yang sama",
+         jenis="selisih", kategori="seharusnya sama: dua tabel 2025 dari kompilasi yang sama",
          alasan_rincian="banjir: jenis dengan rumah rusak terbanyak; rekap nasional memecah per tingkat, tabel per jenis tidak",
          pertanyaan=[
              ("Apakah tingkat kerusakan membagi habis?", "Ya: rekap hanya punya tiga kolom rumah rusak (berat, sedang, ringan)."),
@@ -167,8 +165,7 @@ PASANGAN = [
          ]),
     dict(id="P3", judul="Penduduk terdampak kekeringan, banjir, suhu ekstrem (WDI): konteks",
          utama="EN.CLC.MDAT.ZS", rincian_utama="total", pembanding=[("rumah_rusak", "jenis_bencana=banjir")],
-         jenis="konteks", metode="konteks",
-         kategori="periode dan konsep berbeda: WDI persen penduduk terdampak 1990–2009, BNPB unit rusak",
+         jenis="konteks", kategori="periode dan konsep berbeda: WDI persen penduduk terdampak 1990–2009, BNPB unit rusak",
          alasan_rincian="WDI tanpa rincian; BNPB banjir sebagai contoh jenis yang tercakup",
          pertanyaan=[("Mengapa tidak dihitung selisihnya?", "Konsep berbeda (penduduk vs rumah) dan tidak ada tahun yang sama.")]),
 ]
