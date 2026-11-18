@@ -8,3 +8,4 @@ melainkan "mengerti atau tidak" — isi kolom terakhir dengan apa yang Anda ubah
 |---|---|---|---|---|
 | 2026-11-03 | 12345678 | Copilot | kerangka DataLoader | ganti normalisasi, tambah seed worker |
 | 2026-11-08 | 124450048 | Antigravity AI | Desain kerangka skema panel Gold dan fungsi grid master | Menyesuaikan kode BPS 38 provinsi 2025, menambahkan penanganan kode 9999 nasional terpisah, dan menetapkan transformasi log1p untuk nilai kerugian/kerusakan |
+| 2026-11-18 | 124450063 | Antigravity AI | Kerangka validasi Pandera Silver dan fungsi uji agregasi kab/kota vs provinsi | Menyesuaikan batas wilayah_kode hingga 9700 (Papua Pegunungan), menambahkan kamus kategori rincian rumah rusak Kasus 23, dan mendokumentasikan selisih 50 unit DKI-Jabar
