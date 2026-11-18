@@ -14,8 +14,20 @@ Tabel masalah yang ditemukan (missing, outlier, patahan seri, duplikat, format, 
 jumlah baris terdampak, keputusan, dan alternatif yang ditolak. Rujuk id di `log-keputusan.csv`.
 
 ## Integrasi dan rekonsiliasi
-Seri utama vs pembanding nasional: selisih, penjelasannya (definisi, metode, vintage, granularitas),
-dan hasil analisis revisi dari arsip WDI.
+Rekonsiliasi numerik dilakukan hanya untuk pasangan dan periode dengan cakupan lengkap; selisih didefinisikan
+sebagai nilai pembanding dikurangi nilai utama dan tidak dihapus.
+
+- **P1, rumah rusak banjir:** jumlah 38 provinsi sama dengan baris Indonesia pada 2024 (32.664) dan 2025
+  (243.774). Tahun 2010–2023 tidak dibandingkan karena berkas rumah rusak yang tersedia hanya memuat angka nasional.
+- **P2, rumah rusak banjir 2025:** total menurut jenis (243.774) sama dengan jumlah berat (64.587), sedang (55.560),
+  dan ringan (123.627); selisih 0.
+- **WDI `EN.CLC.MDAT.ZS`:** nilai 0,16059 persen tetap disajikan sebagai konteks. Nilai ini adalah rata-rata
+  1990–2009 yang berlabel API 2009, sedangkan seri BNPB dimulai 2010 dan mengukur unit kerusakan, bukan persentase
+  penduduk terdampak. Karena periode, konsep, dan satuannya tidak sebanding, selisih tidak dihitung dan nilai
+  WDI tidak digabungkan ke panel provinsi.
+
+Rincian, tahun, dan lineage sumber tersedia di `reports/hasil-rekonsiliasi.csv` dan
+`reports/pasangan-rekonsiliasi.md`.
 
 ## Penyimpanan Silver (draf Tahap 5)
 Silver disimpan di SQLite karena ukuran kasus masih sesuai untuk basis data lokal satu berkas;
