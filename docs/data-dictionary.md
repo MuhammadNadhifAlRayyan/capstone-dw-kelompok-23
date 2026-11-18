@@ -13,7 +13,7 @@ Skema minimal tabel Silver memuat 11 kolom wajib. Tabel ini menyimpan seluruh ob
 |---|---|---|---|---|---|---|
 | `sumber` | string | — | Tidak | `bnpb`, `wdi` | Jalur folder `data/raw/` | Identitas produsen data |
 | `seri_kode` | string | — | Tidak | 14 seri BNPB + 1 seri WDI (lihat daftar seri di bawah) | Dokumen KASUS.md | Kode unik indikator |
-| `wilayah_kode` | int64 | Kode BPS $\times 100$ | Tidak | `9999` (Nasional) atau `1100`–`9600` (Provinsi) | Keputusan K-001 | Standar 38 provinsi tahun 2025 |
+| `wilayah_kode` | int64 | Kode BPS $\times 100$ | Tidak | `9999` (Nasional) atau `1100`–`9700` (Provinsi) | Keputusan K-001 | Standar 38 provinsi tahun 2025 |
 | `nama_wilayah` | string | — | Tidak | Nama provinsi terstandarisasi huruf kapital (misal: `ACEH`, `SUMATERA UTARA`), atau `INDONESIA` | Standardisasi nama wilayah | Ejaan diseragamkan antarberkas |
 | `periode` | string | `YYYY` | Tidak | Regex `^\d{4}$` (contoh: `2010` s.d. `2025`) | Berkas mentah | Periode tahunan observasi |
 | `jenis_periode` | string | — | Tidak | `tahun` | Aturan baku Silver | Kasus 23 berbasis agregasi tahunan |
@@ -22,6 +22,45 @@ Skema minimal tabel Silver memuat 11 kolom wajib. Tabel ini menyimpan seluruh ob
 | `satuan` | string | — | Tidak | `kejadian`, `unit`, `hektare`, `rupiah`, `persen` | Standardisasi satuan kasus | Satuan metrik yang dibakukan |
 | `_berkas_raw` | string | Jalur relatif | Tidak | Jalur relatif terhadap `data/raw/` (terdaftar di `MANIFEST.csv`) | Fungsi pembaca ekstraksi | Provenans berkas sumber |
 | `_sha256_raw` | string | Heksadesimal 64-karakter | Tidak | Cocok persis dengan hash di `data/raw/MANIFEST.csv` | `src.common.manifest.sha256_raw` | Sidik integritas berkas sumber |
+
+### Contoh Penelusuran Silsilah (Lineage) Satu Baris Silver ke Berkas Mentah
+
+Sesuai prinsip Capstone Data Wrangling bahwa *"Setiap angka punya jejak"*, setiap baris di `data/silver/silver.parquet` dapat dilacak secara deterministik ke sel asalnya di berkas mentah.
+
+#### Contoh 1: Data Kerusakan Rumah Akibat Banjir di Provinsi Aceh (Tahun 2025)
+
+Baris pada tabel Silver:
+```text
+sumber        : bnpb
+seri_kode     : rumah_rusak
+wilayah_kode  : 1100
+nama_wilayah  : ACEH
+periode       : 2025
+jenis_periode : tahun
+rincian       : banjir
+nilai         : 197638.0
+satuan        : unit
+_berkas_raw   : bnpb/2026-10-20/tangan/kompilasi-data-kejadian-dan-dampak-bencana-2025/43b83e79-c8b6-4b9a-b2f0-d1cbd9cfa636-jumlah-rumah-rusak-akibat-bencana-menurut-provinsi-2025.xlsx
+_sha256_raw   : 7b953507dab9dc861030f8e1bd8feaf69cc6c7479c0efbe9643b4ac761357912
+```
+
+**Langkah Penelusuran Rekonstruksi (*Audit Trail*)**:
+1. **Verifikasi Integritas Berkas Sumber**:
+   Ambil jalur `_berkas_raw`. Buka `data/raw/MANIFEST.csv` baris ke-53:
+   `bnpb/2026-10-20/tangan/kompilasi-data-kejadian-dan-dampak-bencana-2025/43b83e79-c8b6-4b9a-b2f0-d1cbd9cfa636-jumlah-rumah-rusak-akibat-bencana-menurut-provinsi-2025.xlsx,18955,7b953507dab9dc861030f8e1bd8feaf69cc6c7479c0efbe9643b4ac761357912`
+   Nilai SHA-256 pada baris Silver cocok identik dengan sidik berkas mentah asli.
+2. **Lokasi Sel pada Berkas Mentah**:
+   Buka berkas XLSX tersebut pada sheet `Rumah Rusak 2025`:
+   - Baris 2 (Header): Kolom F memiliki nama `BANJIR`.
+   - Baris 3 (Data Baris ke-1): Kolom B (`Kode Wilayah Provinsi`) bernilai `11`, Kolom C (`Provinsi`) bernilai `ACEH`.
+   - Sel F3 (`BANJIR` untuk `ACEH`): Nilai mentah adalah `197638`.
+3. **Penerapan Aturan Wrangling**:
+   - Nilai sel `197638` diekstrak menjadi float `197638.0` pada kolom `nilai`.
+   - Nama header `BANJIR` distandarisasi ke snake_case menjadi `banjir` pada kolom `rincian` (terdaftar di kamus kategori rincian).
+   - Kode provinsi `11` dikonversi mengikuti keputusan `K-001` menjadi `1100` ($11 \times 100$) pada kolom `wilayah_kode`.
+   - Kolom `satuan` ditetapkan sebagai `unit` sesuai dokumen `KASUS.md`.
+
+---
 
 ---
 
