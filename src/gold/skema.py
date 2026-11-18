@@ -54,22 +54,132 @@ NAMA_NASIONAL = "INDONESIA"
 TAHUN_AWAL = 2010
 TAHUN_AKHIR = 2025
 
-# 14 Seri Utama Kasus 23
+# 14 Seri Utama Kasus 23 (Tingkat Provinsi/Nasional)
 SERI_UTAMA_K23 = {
-    "kejadian": {"rentang": (2010, 2025), "satuan": "kejadian"},
-    "rumah_rusak": {"rentang": (2010, 2025), "satuan": "unit"},
-    "rumah_terendam": {"rentang": (2021, 2022), "satuan": "unit"},
-    "fasyankes_rusak": {"rentang": (2010, 2025), "satuan": "unit"},
-    "satuan_pendidikan_rusak": {"rentang": (2021, 2025), "satuan": "unit"},
-    "jembatan_rusak": {"rentang": (2010, 2025), "satuan": "unit"},
-    "kantor_rusak": {"rentang": (2010, 2025), "satuan": "unit"},
-    "rumah_ibadat_rusak": {"rentang": (2010, 2025), "satuan": "unit"},
-    "kios_toko_rusak": {"rentang": (2010, 2024), "satuan": "unit"},
-    "pabrik_rusak": {"rentang": (2024, 2024), "satuan": "unit"},
-    "luas_sawah_rusak": {"rentang": (2010, 2024), "satuan": "hektar"},
-    "luas_lahan_kebun_hutan_rusak": {"rentang": (2010, 2024), "satuan": "hektar"},
-    "nilai_kerugian": {"rentang": (2015, 2024), "satuan": "rupiah"},
-    "nilai_kerusakan": {"rentang": (2015, 2024), "satuan": "rupiah"},
+    "kejadian": {
+        "rentang": (2010, 2025),
+        "satuan": "kejadian",
+        "kode_sdg": "—",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Kejadian Bencana Menurut Provinsi",
+        "rujukan": "BNPB Pusdatinkom CKAN Datastore & Rekapitulasi Tahunan",
+    },
+    "rumah_rusak": {
+        "rentang": (2010, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Rumah Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator C-4 & UN SDG 11.5.2",
+    },
+    "rumah_terendam": {
+        "rentang": (2021, 2022),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Rumah Terendam Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator B-4 & UN SDG 11.5.2",
+    },
+    "fasyankes_rusak": {
+        "rentang": (2010, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Fasilitas Pelayanan Kesehatan yang Rusak",
+        "rujukan": "Sendai Framework Indikator D-2 & UN SDG 11.5.2",
+    },
+    "satuan_pendidikan_rusak": {
+        "rentang": (2021, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Satuan Pendidikan Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-3 & UN SDG 11.5.2",
+    },
+    "jembatan_rusak": {
+        "rentang": (2010, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Jembatan Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-4 & UN SDG 11.5.2",
+    },
+    "kantor_rusak": {
+        "rentang": (2010, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Kantor yang Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-4 & UN SDG 11.5.2",
+    },
+    "rumah_ibadat_rusak": {
+        "rentang": (2010, 2025),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Rumah Ibadat yang Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-4 & UN SDG 11.5.2",
+    },
+    "kios_toko_rusak": {
+        "rentang": (2010, 2024),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Kios / Toko yang Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-4 / C-5 & UN SDG 11.5.2",
+    },
+    "pabrik_rusak": {
+        "rentang": (2024, 2024),
+        "satuan": "unit",
+        "kode_sdg": "11.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Jumlah Pabrik Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator D-4 / C-5 & UN SDG 11.5.2",
+    },
+    "luas_sawah_rusak": {
+        "rentang": (2010, 2024),
+        "satuan": "hektar",
+        "kode_sdg": "1.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Luas Sawah yang Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator C-2 & UN SDG 1.5.2",
+    },
+    "luas_lahan_kebun_hutan_rusak": {
+        "rentang": (2010, 2024),
+        "satuan": "hektar",
+        "kode_sdg": "1.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Luas Lahan, Kebun, dan Hutan yang Rusak Akibat Bencana",
+        "rujukan": "Sendai Framework Indikator C-2 / C-5 & UN SDG 1.5.2",
+    },
+    "nilai_kerugian": {
+        "rentang": (2015, 2024),
+        "satuan": "rupiah",
+        "kode_sdg": "1.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Nilai Kerugian Akibat Bencana (Pengajuan RRRP)",
+        "rujukan": "Sendai Framework Indikator C-1 & UN SDG 1.5.2",
+    },
+    "nilai_kerusakan": {
+        "rentang": (2015, 2024),
+        "satuan": "rupiah",
+        "kode_sdg": "1.5.2",
+        "sumber": "bnpb",
+        "nama_resmi": "Nilai Kerusakan Akibat Bencana (Pengajuan RRRP)",
+        "rujukan": "Sendai Framework Indikator C-1 & UN SDG 1.5.2",
+    },
+}
+
+# Seri Pembanding Nasional (WDI)
+SERI_PEMBANDING_WDI = {
+    "EN.CLC.MDAT.ZS": {
+        "rentang": (2009, 2009),
+        "satuan": "persen",
+        "kode_sdg": "1.5.1",
+        "sumber": "wdi",
+        "nama_resmi": "Droughts, floods, extreme temperatures (% of population, average 1990-2009)",
+        "rujukan": "World Development Indicators / WDI Sumber 46 (SDGs)",
+    }
 }
 
 # 9 Kategori Kejadian Bencana Standar BNPB
