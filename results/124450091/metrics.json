@@ -1,5 +1,8 @@
 {
   "metrik": {
+    "baris_silver": 1674,
+    "sel_kosong_grid": 496,
+    "outlier_ditandai": 201,
     "berkas_diverifikasi": 58
   },
   "seed": 0,
