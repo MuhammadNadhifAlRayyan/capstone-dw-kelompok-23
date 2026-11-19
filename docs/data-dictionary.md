@@ -1,137 +1,72 @@
 # Data Dictionary — Kelompok 23 (Kerusakan dan Kerugian Akibat Bencana)
 
-Dokumen ini mendefinisikan kamus data untuk tabel keluaran pipeline Capstone Data Wrangling.
-Setiap angka dan tipe mengacu pada aturan baku *Langkah Kerja Capstone Data Wrangling* dan *Panduan Kasus 23*.
+Dokumen ini mendefinisikan kamus data resmi seluruh seri, kolom, tipe, satuan baku, dan pemetaan indikator SDG untuk Kasus 23 (Klaster G. Bencana - BNPB).
 
 ---
 
-## 1. Tabel Silver: `data/silver/silver.parquet`
+## 1. Kamus Master Seri (15 Seri Kasus 23)
 
-Skema minimal tabel Silver memuat 11 kolom wajib. Tabel ini menyimpan seluruh observasi mentah yang telah dirapikan, diseragamkan tipe dan kodenya, tanpa baris kosong (missing value), serta mempertahankan provenans (*lineage*) data mentah.
+Pemeriksaan menyeluruh terhadap 58 berkas mentah (39 JSON datastore/CKAN BNPB, 15 XLSX BNPB, dan 4 JSON WDI) menetapkan satu satuan resmi dan satu kode SDG kanonik per seri, serta menyelesaikan ketidaksesuaian pada katalog awal:
 
-| Kolom | Tipe | Satuan / Format | Boleh Kosong | Rentang atau Nilai Sah | Asal (Berkas / Aturan) | Keterangan |
+| No | Kode Seri | Sumber | Nama Resmi Seri Mentah | Kode SDG Awal | Kode SDG Kanonik | Satuan Awal | Satuan Baku Resmi | Periode | Tingkat Wilayah | Dasar Rujukan & Penetapan |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | `kejadian` | BNPB | Jumlah Kejadian Bencana Menurut Provinsi / Kabupaten / Rekapitulasi | — | — | kejadian | `kejadian` | 2010–2025 | Provinsi, Kab/Kota, Nasional | Frekuensi kejadian bencana alam; dasar pemicu (event counter) pada Sendai Framework; tidak memiliki kode numerik SDG langsung. |
+| 2 | `rumah_rusak` | BNPB | Jumlah Rumah Rusak Akibat Bencana Menurut Provinsi / Rekapitulasi Kerusakan | 11.5.2\|1.5.2 | `11.5.2` | unit | `unit` | 2010–2025 | Provinsi, Kab/Kota, Nasional | Kerusakan fisik fasilitas perumahan permukiman (Sendai Framework Indikator C-4 & UN SDG 11.5.2). Satuan terverifikasi pada header XLSX 2021/2022 `(unit)`. |
+| 3 | `rumah_terendam` | BNPB | Kerusakan - Rumah Terendam | 11.5.2\|1.5.2 | `11.5.2` | unit | `unit` | 2021–2022 | Provinsi, Kab/Kota | Fasilitas tempat tinggal terendam banjir sementara (Sendai B-4 & UN SDG 11.5.2). Satuan terverifikasi pada baris unit XLSX 2021/2022. |
+| 4 | `fasyankes_rusak` | BNPB | Jumlah Fasilitas Pelayanan Kesehatan yang Rusak Akibat Bencana | 11.5.2 | `11.5.2` | unit | `unit` | 2010–2025 | Provinsi, Kab/Kota | Kerusakan infrastruktur kritis fasilitas kesehatan (Sendai Framework Indikator D-2 & UN SDG 11.5.2). Satuan: `unit`. |
+| 5 | `satuan_pendidikan_rusak` | BNPB | Jumlah Satuan Pendidikan Rusak Akibat Bencana | 11.5.2 | `11.5.2` | unit | `unit` | 2021–2025 | Provinsi, Kab/Kota | Kerusakan infrastruktur kritis fasilitas pendidikan (Sendai Framework Indikator D-3 & UN SDG 11.5.2). Satuan: `unit`. |
+| 6 | `jembatan_rusak` | BNPB | Jumlah Jembatan Rusak Akibat Bencana | 11.5.2 | `11.5.2` | unit | `unit` | 2010–2025 | Provinsi, Kab/Kota | Kerusakan infrastruktur transportasi publik penting (Sendai Framework Indikator D-4 & UN SDG 11.5.2). Satuan: `unit`. |
+| 7 | `kantor_rusak` | BNPB | Jumlah Kantor yang Rusak Akibat Bencana | — | `11.5.2` | unit | `unit` | 2010–2025 | Provinsi, Kab/Kota | Kerusakan fasilitas dan gedung administrasi pelayanan publik dasar (Sendai Framework Indikator D-4 & UN SDG 11.5.2). Ditetapkan mengisi kode kosong `—`. |
+| 8 | `rumah_ibadat_rusak` | BNPB | Jumlah Rumah Ibadat yang Rusak Akibat Bencana | — | `11.5.2` | unit | `unit` | 2010–2025 | Provinsi, Kab/Kota | Kerusakan sarana fasilitas sosial keagamaan masyarakat (Sendai Framework Indikator D-4 & UN SDG 11.5.2). Ditetapkan mengisi kode kosong `—`. |
+| 9 | `kios_toko_rusak` | BNPB | Jumlah Kios / Toko yang Rusak Akibat Bencana | 11.5.2\|1.5.2 | `11.5.2` | unit | `unit` | 2010–2024 | Provinsi, Kab/Kota | Kerusakan fisik sarana komersial mikro perkotaan/permukiman (Sendai Framework D-4 / C-5 & UN SDG 11.5.2). Satuan: `unit`. |
+| 10 | `pabrik_rusak` | BNPB | Jumlah Pabrik Rusak Akibat Bencana | 11.5.2\|1.5.2 | `11.5.2` | unit | `unit` | 2024 | Provinsi, Kab/Kota | Kerusakan fisik fasilitas industri/manufaktur (Sendai Framework D-4 / C-5 & UN SDG 11.5.2). Satuan: `unit`. |
+| 11 | `luas_sawah_rusak` | BNPB | Luas Sawah yang Rusak Akibat Bencana | 11.5.2\|1.5.2 | `1.5.2` | tidak_ada | `hektar` | 2010–2024 | Nasional | Kerusakan areal tanaman pangan/pertanian (Sendai Framework Indikator C-2: Direct agricultural loss & UN SDG 1.5.2). Satuan dikoreksi dari `tidak_ada` menjadi `hektar` (ha) sesuai standar pelaporan BNPB/Kementan/BPS. |
+| 12 | `luas_lahan_kebun_hutan_rusak` | BNPB | Luas Lahan, Kebun, dan Hutan yang Rusak Akibat Bencana | 11.5.2\|1.5.2 | `1.5.2` | tidak_ada | `hektar` | 2010–2024 | Nasional | Kerusakan areal perkebunan dan kehutanan produktif (Sendai Framework Indikator C-2 / C-5 & UN SDG 1.5.2). Satuan dikoreksi dari `tidak_ada` menjadi `hektar` (ha) sesuai standar KLHK/BNPB. |
+| 13 | `nilai_kerugian` | BNPB | Nilai Kerusakan dan Kerugian Akibat Bencana (Pengajuan RRRP) | 11.5.2\|1.5.2 | `1.5.2` | rupiah | `rupiah` | 2015–2024 | Provinsi, Kab/Kota | Aliran ekonomi yang hilang / disrupsi finansial (losses) akibat bencana (Sendai Framework Indikator C-1 & UN SDG 1.5.2). Besaran nilai nominal dalam mata uang rupiah. |
+| 14 | `nilai_kerusakan` | BNPB | Nilai Kerusakan dan Kerugian Akibat Bencana (Pengajuan RRRP) | 11.5.2\|1.5.2 | `1.5.2` | rupiah | `rupiah` | 2015–2024 | Provinsi, Kab/Kota | Nilai biaya kerusakan aset fisik langsung (direct damage) akibat bencana (Sendai Framework Indikator C-1 & UN SDG 1.5.2). Besaran nilai nominal dalam mata uang rupiah. |
+| 15 | `EN.CLC.MDAT.ZS` | WDI | Droughts, floods, extreme temperatures (% of population, average 1990-2009) | — | `1.5.1` | — | `persen` | 2009 | Nasional (IDN) | Persentase populasi yang terdampak oleh bencana iklim (banjir, kekeringan, suhu ekstrem). Sumber WDI Source ID 46: Sustainable Development Goals. Satuan ditetapkan `persen` (% of population). |
+
+---
+
+## 2. Aturan Standar Periode & Wilayah
+
+1. **Integritas Periode pada Lapis Silver**:
+   - Observasi mentah dengan resolusi semesteran (`YYYY-S#`), triwulanan (`YYYY-Q#`), atau bulanan (`YYYY-MM`) **dilarang dirata-ratakan ke tahunan di Silver**.
+   - Kolom `jenis_periode` wajib diisi sesuai resolusi aslinya (`tahun`, `semester`, `triwulan`, `bulan`).
+   - Agregasi waktu (misalnya jumlah total tahunan atau perataan terkontrol) hanya boleh dilakukan di lapis Gold dengan aturan terdokumentasi (Log Keputusan K-047).
+2. **Standardisasi Wilayah**:
+   - `wilayah_kode = 9999` untuk Agregat Nasional (Indonesia).
+   - `wilayah_kode = kode_BPS * 100` untuk 38 provinsi acuan tahun 2025 (misal 1100 Aceh, 9400 Papua).
+   - Pemekaran wilayah dipertahankan apa adanya sejak tahun berdiri (Kalimantan Utara aktif mulai 2012, 4 provinsi Papua baru aktif mulai 2022) tanpa penggabungan retrospektif dengan bobot fiktif (Log Keputusan K-001 & K-007).
+
+---
+
+## 3. Spesifikasi Skema Tabel Silver (`data/silver/silver.parquet`)
+
+Tabel Silver memuat 11 kolom wajib standar dengan kunci unik kombinasi: `['sumber', 'seri_kode', 'wilayah_kode', 'periode', 'rincian', '_berkas_raw']`.
+
+| Kolom | Tipe Data | Format / Satuan | Boleh Kosong | Rentang / Nilai Sah | Rujukan Aturan | Deskripsi & Peran |
 |---|---|---|---|---|---|---|
-| `sumber` | string | — | Tidak | `bnpb`, `wdi` | Jalur folder `data/raw/` | Identitas produsen data |
-| `seri_kode` | string | — | Tidak | 14 seri BNPB + 1 seri WDI (lihat daftar seri di bawah) | Dokumen KASUS.md | Kode unik indikator |
-| `wilayah_kode` | int64 | Kode BPS $\times 100$ | Tidak | `9999` (Nasional) atau `1100`–`9700` (Provinsi) | Keputusan K-001 | Standar 38 provinsi tahun 2025 |
-| `nama_wilayah` | string | — | Tidak | Nama provinsi terstandarisasi huruf kapital (misal: `ACEH`, `SUMATERA UTARA`), atau `INDONESIA` | Standardisasi nama wilayah | Ejaan diseragamkan antarberkas |
-| `periode` | string | `YYYY` | Tidak | Regex `^\d{4}$` (contoh: `2010` s.d. `2025`) | Berkas mentah | Periode tahunan observasi |
-| `jenis_periode` | string | — | Tidak | `tahun` | Aturan baku Silver | Kasus 23 berbasis agregasi tahunan |
-| `rincian` | string | snake_case | Tidak | Terdaftar di Kamus Kategori Rincian (lihat Bagian 2) | Header / dimensi data mentah | Sub-kategori atau `total` jika agregat |
-| `nilai` | float64 | Sesuai kolom `satuan` | Tidak | $\ge 0$ (khusus unit: bilangan bulat $\ge 0$) | Kolom observasi data mentah | Angka metrik; tidak boleh ada nilai negatif atau NaN |
-| `satuan` | string | — | Tidak | `kejadian`, `unit`, `hektare`, `rupiah`, `persen` | Standardisasi satuan kasus | Satuan metrik yang dibakukan |
-| `_berkas_raw` | string | Jalur relatif | Tidak | Jalur relatif terhadap `data/raw/` (terdaftar di `MANIFEST.csv`) | Fungsi pembaca ekstraksi | Provenans berkas sumber |
-| `_sha256_raw` | string | Heksadesimal 64-karakter | Tidak | Cocok persis dengan hash di `data/raw/MANIFEST.csv` | `src.common.manifest.sha256_raw` | Sidik integritas berkas sumber |
-
-### Contoh Penelusuran Silsilah (Lineage) Satu Baris Silver ke Berkas Mentah
-
-Sesuai prinsip Capstone Data Wrangling bahwa *"Setiap angka punya jejak"*, setiap baris di `data/silver/silver.parquet` dapat dilacak secara deterministik ke sel asalnya di berkas mentah.
-
-#### Contoh 1: Data Kerusakan Rumah Akibat Banjir di Provinsi Aceh (Tahun 2025)
-
-Baris pada tabel Silver:
-```text
-sumber        : bnpb
-seri_kode     : rumah_rusak
-wilayah_kode  : 1100
-nama_wilayah  : ACEH
-periode       : 2025
-jenis_periode : tahun
-rincian       : banjir
-nilai         : 197638.0
-satuan        : unit
-_berkas_raw   : bnpb/2026-10-20/tangan/kompilasi-data-kejadian-dan-dampak-bencana-2025/43b83e79-c8b6-4b9a-b2f0-d1cbd9cfa636-jumlah-rumah-rusak-akibat-bencana-menurut-provinsi-2025.xlsx
-_sha256_raw   : 7b953507dab9dc861030f8e1bd8feaf69cc6c7479c0efbe9643b4ac761357912
-```
-
-**Langkah Penelusuran Rekonstruksi (*Audit Trail*)**:
-1. **Verifikasi Integritas Berkas Sumber**:
-   Ambil jalur `_berkas_raw`. Buka `data/raw/MANIFEST.csv` baris ke-53:
-   `bnpb/2026-10-20/tangan/kompilasi-data-kejadian-dan-dampak-bencana-2025/43b83e79-c8b6-4b9a-b2f0-d1cbd9cfa636-jumlah-rumah-rusak-akibat-bencana-menurut-provinsi-2025.xlsx,18955,7b953507dab9dc861030f8e1bd8feaf69cc6c7479c0efbe9643b4ac761357912`
-   Nilai SHA-256 pada baris Silver cocok identik dengan sidik berkas mentah asli.
-2. **Lokasi Sel pada Berkas Mentah**:
-   Buka berkas XLSX tersebut pada sheet `Rumah Rusak 2025`:
-   - Baris 2 (Header): Kolom F memiliki nama `BANJIR`.
-   - Baris 3 (Data Baris ke-1): Kolom B (`Kode Wilayah Provinsi`) bernilai `11`, Kolom C (`Provinsi`) bernilai `ACEH`.
-   - Sel F3 (`BANJIR` untuk `ACEH`): Nilai mentah adalah `197638`.
-3. **Penerapan Aturan Wrangling**:
-   - Nilai sel `197638` diekstrak menjadi float `197638.0` pada kolom `nilai`.
-   - Nama header `BANJIR` distandarisasi ke snake_case menjadi `banjir` pada kolom `rincian` (terdaftar di kamus kategori rincian).
-   - Kode provinsi `11` dikonversi mengikuti keputusan `K-001` menjadi `1100` ($11 \times 100$) pada kolom `wilayah_kode`.
-   - Kolom `satuan` ditetapkan sebagai `unit` sesuai dokumen `KASUS.md`.
+| `sumber` | string | teks kode | Tidak | `bnpb`, `wdi` | Struktur folder raw | Identitas produsen data primer. |
+| `seri_kode` | string | snake_case | Tidak | 15 kode seri sah di Bagian 1 | Katalog Kasus 23 | Kode unik indikator bencana/pembanding. |
+| `wilayah_kode` | int64 | numerik | Tidak | 9999, 1100–9700 | Log K-001, K-007 | Kode wilayah acuan susunan 38 provinsi BPS × 100 dan 9999 untuk nasional. |
+| `nama_wilayah` | string | UPPERCASE | Tidak | Nama 38 provinsi baku / `INDONESIA` | Log K-001 | Nama kanonik wilayah administrasi. |
+| `periode` | string | regex waktu | Tidak | `^\d{4}$` atau `^\d{4}-(0[1-9]\|1[0-2])$` | Log K-047, Skema Silver | Waktu observasi sesuai resolusi asli (tahun/bulan/semester). |
+| `jenis_periode` | string | string | Tidak | `tahun`, `semester`, `triwulan`, `bulan` | Skema Silver | Dimensi temporal granularitas observasi. |
+| `rincian` | string | string | Tidak | `total`, nama bencana (`BANJIR`, dll.), tingkat kerusakan (`berat`, dll.) | Log K-008 | Dimensi disagregasi kejadian/kerusakan. |
+| `nilai` | float64 | numerik | Tidak | $\ge 0$ | Log K-002 | Besaran kuantitatif observasi (tidak menyimpan missing). |
+| `satuan` | string | string | Tidak | `kejadian`, `unit`, `hektar`, `rupiah`, `persen` | Log K-044, K-045 | Satuan ukuran resmi terstandardisasi. |
+| `_berkas_raw` | string | relative path | Tidak | Tercantum di `MANIFEST.csv` | Lineage Bronze | Jalur relatif berkas mentah asal observasi. |
+| `_sha256_raw` | string | hex sha256 | Tidak | 64 karakter hex | `MANIFEST.csv` | Sidik integritas kriptografis berkas mentah. |
 
 ---
 
----
+## 4. Spesifikasi Skema Panel Gold
 
-## 2. Kamus Kategori Rincian (*seri_kode = rumah_rusak*)
-
-Untuk seri `rumah_rusak`, data mentah memiliki dua model pelaporan yang berbeda antartahun:
-1. **Tahun 2021 & 2022**: Berdasarkan **tingkat keparahan kerusakan**.
-2. **Tahun 2024 & 2025**: Berdasarkan **jenis bencana alam**.
-3. **Agregat Keseluruhan**: Nilai total kerusakan rumah tanpa pemecahan.
-
-Seluruh nilai pada kolom `rincian` untuk `seri_kode == 'rumah_rusak'` **wajib** terdaftar pada salah satu kategori sah di bawah ini:
-
-| Nilai Baku `rincian` | Dimensi Asal di Data Mentah | Kategori Klasifikasi | Definisi / Keterangan |
-|---|---|---|---|
-| `total` | Total Keseluruhan | Agregat | Total seluruh rumah rusak pada wilayah dan periode terkait |
-| `rusak_berat` | `Rumah Rusak Berat` | Tingkat Kerusakan | Rumah roboh atau rusak parah pada struktur utama sehingga tidak layak huni |
-| `rusak_sedang` | `Rumah Rusak Sedang` | Tingkat Kerusakan | Kerusakan pada dinding pemikul atau atap, namun struktur utama masih kokoh |
-| `rusak_ringan` | `Rumah Rusak Ringan` | Tingkat Kerusakan | Kerusakan non-struktural (penutup atap, plesteran, kaca jendela) |
-| `banjir` | `BANJIR` | Jenis Bencana | Rumah rusak terendam atau terhantam arus banjir / genangan |
-| `cuaca_ekstrem` | `CUACA EKSTREM` | Jenis Bencana | Rumah rusak akibat angin kencang / angin puting beliung |
-| `gempa_bumi` | `GEMPABUMI` | Jenis Bencana | Rumah rusak akibat goncangan atau getaran gempa bumi |
-| `tanah_longsor` | `TANAH LONGSOR` | Jenis Bencana | Rumah rusak tertimbun atau terseret material longsoran lereng/tebing |
-| `kebakaran_hutan_lahan` | `KEBAKARAN HUTAN DAN LAHAN` | Jenis Bencana | Rumah terbakar akibat kobaran kebakaran hutan dan lahan |
-| `erupsigunungapi` | `ERUPSI GUNUNG API` | Jenis Bencana | Rumah rusak tertimpa lontaran batu pijar, abu vulkanik, atau awan panas |
-| `gelombang_pasang_abrasi` | `GELOMBANG PASANG DAN ABRASI` | Jenis Bencana | Rumah rusak terhantam ombak pasang laut atau terkikis abrasi pantai |
-| `kekeringan` | `KEKERINGAN` | Jenis Bencana | Rumah terdampak krisis air / retak struktur tanah akibat kekeringan ekstrem |
-| `tsunami` | `TSUNAMI` | Jenis Bencana | Rumah hancur terhempas gelombang pasang tsunami |
-
-> [!NOTE]
-> Untuk seri di luar `rumah_rusak` (misalnya `fasyankes_rusak`, `jembatan_rusak`, `kantor_rusak`), nilai baku kolom `rincian` default adalah `total`, kecuali berkas mentah menyajikan breakdown jenis bencana tertentu.
-
----
-
-## 3. Daftar Seri dan Satuan Baku
-
-| Sumber | Kode Seri (`seri_kode`) | Satuan Baku (`satuan`) | Kode SDG | Periode Data | Granularitas Mentah |
-|---|---|---|---|---|---|
-| `bnpb` | `kejadian` | `kejadian` | — | 2010–2025 | Nasional, Provinsi, Kab/Kota |
-| `bnpb` | `rumah_rusak` | `unit` | 1.5.2, 11.5.2 | 2010–2025 | Nasional, Provinsi, Kab/Kota |
-| `bnpb` | `rumah_terendam` | `unit` | 1.5.2, 11.5.2 | 2021–2022 | Provinsi, Kab/Kota |
-| `bnpb` | `fasyankes_rusak` | `unit` | 11.5.2 | 2010–2025 | Provinsi, Kab/Kota |
-| `bnpb` | `satuan_pendidikan_rusak` | `unit` | 11.5.2 | 2021–2025 | Provinsi, Kab/Kota |
-| `bnpb` | `jembatan_rusak` | `unit` | 11.5.2 | 2010–2025 | Provinsi, Kab/Kota |
-| `bnpb` | `kantor_rusak` | `unit` | — | 2010–2025 | Provinsi |
-| `bnpb` | `rumah_ibadat_rusak` | `unit` | — | 2010–2025 | Provinsi |
-| `bnpb` | `kios_toko_rusak` | `unit` | 1.5.2, 11.5.2 | 2010–2024 | Provinsi, Kab/Kota |
-| `bnpb` | `pabrik_rusak` | `unit` | 1.5.2, 11.5.2 | 2024 | Kab/Kota |
-| `bnpb` | `luas_sawah_rusak` | `hektare` | 1.5.2, 11.5.2 | 2010–2024 | Nasional, Provinsi |
-| `bnpb` | `luas_lahan_kebun_hutan_rusak` | `hektare` | 1.5.2, 11.5.2 | 2010–2024 | Nasional, Provinsi |
-| `bnpb` | `nilai_kerugian` | `rupiah` | 1.5.2, 11.5.2 | 2015–2024 | Kab/Kota, Provinsi |
-| `bnpb` | `nilai_kerusakan` | `rupiah` | 1.5.2, 11.5.2 | 2015–2024 | Kab/Kota, Provinsi |
-| `wdi` | `EN.CLC.MDAT.ZS` | `persen` | — | 2009 | Nasional |
-
----
-
-## 4. Tabel Gold: `data/gold/gold_panel.parquet` (Direncanakan Sprint 2)
-
-| Kolom | Tipe | Satuan / Format | Boleh Kosong | Rentang atau Nilai Sah | Keterangan |
-|---|---|---|---|---|---|
-| `wilayah_kode` | int64 | Kode BPS $\times 100$ | Tidak | `1100`–`9600` | 38 Provinsi tahun 2025 |
-| `nama_wilayah` | string | — | Tidak | Nama provinsi kapital | Ejaan kanonik |
-| `periode` | string | `YYYY` | Tidak | 2010–2025 | Rentang analisis |
-| `kejadian` | float64 | kejadian | Ya | $\ge 0$ | Total kejadian bencana |
-| `rumah_rusak_total` | float64 | unit | Ya | $\ge 0$ | Total rumah rusak gabungan |
-| `rumah_rusak_berat` | float64 | unit | Ya | $\ge 0$ | Rumah rusak berat |
-| `rumah_rusak_sedang` | float64 | unit | Ya | $\ge 0$ | Rumah rusak sedang |
-| `rumah_rusak_ringan` | float64 | unit | Ya | $\ge 0$ | Rumah rusak ringan |
-| `fasyankes_rusak` | float64 | unit | Ya | $\ge 0$ | Fasilitas kesehatan rusak |
-| `satuan_pendidikan_rusak`| float64 | unit | Ya | $\ge 0$ | Sekolah / pendidikan rusak |
-| `jembatan_rusak` | float64 | unit | Ya | $\ge 0$ | Jembatan rusak |
-| `kantor_rusak` | float64 | unit | Ya | $\ge 0$ | Perkantoran rusak |
-| `rumah_ibadat_rusak` | float64 | unit | Ya | $\ge 0$ | Sarana ibadah rusak |
-| `nilai_kerusakan` | float64 | rupiah | Ya | $\ge 0$ | Nilai kerusakan aset fisik |
-| `nilai_kerugian` | float64 | rupiah | Ya | $\ge 0$ | Nilai kerugian arus ekonomi |
+1. **Panel Provinsi (`data/gold/panel_provinsi_bencana.parquet`)**:
+   - Dimensi grid: 38 Provinsi × 16 Tahun (2010–2025) = 608 observasi per seri level provinsi.
+   - Kolom: `wilayah_kode`, `nama_wilayah`, `tahun`, diikuti 10 kolom indikator tingkat provinsi (`kejadian`, `rumah_rusak`, `rumah_terendam`, `fasyankes_rusak`, `satuan_pendidikan_rusak`, `jembatan_rusak`, `kantor_rusak`, `rumah_ibadat_rusak`, `kios_toko_rusak`, `pabrik_rusak`, `nilai_kerugian`, `nilai_kerusakan`).
+   - Transformasi moneter: Nilai rupiah tetap disimpan dalam nilai nominal asli (`rupiah`), serta kolom turunan terstandarisasi $\log(1 + x)$ untuk analisis ekonometrika rentang lebar.
+2. **Tabel Seri Nasional (`data/gold/nasional_bencana.parquet`)**:
+   - Memuat seri yang hanya tersedia pada agregat nasional (`luas_sawah_rusak`, `luas_lahan_kebun_hutan_rusak`, dan pembanding WDI `EN.CLC.MDAT.ZS`).
+   - Menghindari percampuran seri nasional dan provinsi dalam satu panel tanpa kode wilayah yang benar.
