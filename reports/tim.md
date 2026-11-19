@@ -10,8 +10,15 @@ Kasus 23 membahas kerusakan dan kerugian akibat bencana di Indonesia bersumber d
 Sumber dan format mentah terdiri atas 58 berkas (39 JSON datastore/CKAN BNPB, 15 XLSX rekapitulasi BNPB, dan 4 JSON WDI) dari snapshot 20 Oktober 2026. Setiap baris Silver menyimpan `_berkas_raw` dan `_sha256_raw` yang diverifikasi terhadap `data/raw/MANIFEST.csv`.
 
 ## Masalah data dan penanganannya
-Tabel masalah yang ditemukan (missing, outlier, patahan seri, duplikat, format, wilayah) dengan
-jumlah baris terdampak, keputusan, dan alternatif yang ditolak. Rujuk id di `log-keputusan.csv`.
+Temuan penting Sprint 1:
+
+- **Bagian data yang kosong:** Tabel berisi 14 jenis data untuk 16 tahun dan 38 provinsi (8.512 kombinasi). Bagian kosong tidak selalu berarti datanya hilang: sumber mungkin tidak punya data provinsi, atau provinsinya belum terbentuk. Karena itu, bagian kosong tidak diisi nol (K-006–K-007). Contohnya, data `fasyankes_rusak` kosong untuk 1 provinsi pada 2021 dan 5 provinsi pada 2022 (K-010–K-011). Dua jenis data luas lahan hanya tersedia sebagai jumlah nasional ([profil seri](profil-per-seri.csv)). Data `nilai_kerugian` dan `nilai_kerusakan` juga belum lengkap: pada 2015 masing-masing hanya ada untuk 1 dari 34 provinsi, sedangkan pada 2024 hanya ada untuk 2 dari 38 provinsi ([kelengkapan panel](kelengkapan-panel-per-tahun.csv)).
+- **Angka yang jauh berbeda:** Pemeriksaan menemukan 201 angka yang jauh berbeda dari biasanya (K-005). Angka-angka itu tetap disimpan karena belum ada bukti bahwa nilainya salah. Contohnya, jumlah `rumah_rusak` di Aceh pada 2025 adalah 198.082; angka ini bisa dihitung dari [Silver](../data/silver/silver.parquet) dan ada di [daftar calon anomali](calon-anomali.csv).
+- **Perubahan besar:** Tidak ditemukan perubahan besar yang terjadi bersamaan di banyak provinsi. Untuk `rumah_rusak` dari 2021 ke 2022, angka turun di 25 dari 33 provinsi yang memiliki data pada kedua tahun. Namun, angka tengahnya hanya turun sekitar 22%, belum mencapai batas 50% ([hasil uji](uji-patahan-seri.csv), K-005).
+- **Data kembar dan revisi:** Pada data 2024, 266 pasangan angka dibandingkan. Semuanya sama, jadi tidak ada revisi angka yang perlu dipilih. Sebanyak 228 salinan yang sama hanya dihitung sekali (K-004).
+- **Perbaikan keterangan data:** Satuan dua jenis data luas diperbaiki menjadi hektar. Satuan WDI `EN.CLC.MDAT.ZS` ditetapkan sebagai persen. Kode SDG juga dibakukan: kerusakan fasilitas/infrastruktur memakai 11.5.2, kerugian ekonomi langsung memakai 1.5.2, dan WDI memakai 1.5.1 (K-044–K-046). Periode asli tetap disimpan di Silver; sesuai keputusan tim, data baru diringkas per tahun di Gold (K-047).
+
+Angka dapat dicek di [`log-keputusan.csv`](../log-keputusan.csv), [`silver.parquet`](../data/silver/silver.parquet), [`profil-per-seri.csv`](profil-per-seri.csv), [`calon-anomali.csv`](calon-anomali.csv), [`uji-patahan-seri.csv`](uji-patahan-seri.csv), dan [`kelengkapan-panel-per-tahun.csv`](kelengkapan-panel-per-tahun.csv).
 
 ## Integrasi dan rekonsiliasi
 Seri utama vs pembanding nasional: selisih, penjelasannya (definisi, metode, vintage, granularitas),
