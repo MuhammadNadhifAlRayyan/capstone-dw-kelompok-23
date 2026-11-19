@@ -1,47 +1,41 @@
 # Laporan tim — Kelompok 23, Kasus 23: Kerusakan dan kerugian akibat bencana
 
-Satu dokumen bersama, enam bagian. Angka harus dapat ditarik ulang dari `data/silver`, `data/gold`,
-dan `log-keputusan.csv` yang sudah di-*commit*.
+Status: draf akhir Sprint 1. Angka di bawah dapat dicek dari Silver, hasil di `reports/`, metrik, dan `log-keputusan.csv`.
 
-## Ringkasan
-Kasus 23 membahas kerusakan dan kerugian akibat bencana di Indonesia bersumber dari BNPB (14 seri utama tingkat provinsi dan kabupaten/kota periode 2010–2025) serta pembanding nasional World Development Indicators (WDI `EN.CLC.MDAT.ZS`). Temuan awal menunjukkan heterogenitas format yang tinggi (JSON CKAN datastore dan spreadsheet Excel ber-header ganda), perbedaan tingkat granularitas wilayah (provinsi vs kabupaten/kota), adanya baris nasional (Indonesia) di dalam tabel provinsi yang memerlukan pemisahan eksplisit, serta sebaran nilai kerugian dan kerusakan dalam rupiah yang sangat lebar sehingga membutuhkan transformasi logaritma.
+### Ringkasan
+Kasus ini memakai 14 seri BNPB dan 1 seri WDI. Dua seri luas lahan dari BNPB hanya punya data total nasional. Silver pertama berisi 18.187 baris dari 15 seri. Masalah utama yang ditemukan adalah bentuk berkas yang beragam, data provinsi yang tidak selalu lengkap, perbedaan rincian rumah rusak, serta banyaknya angka yang jauh berbeda dari nilai biasanya. Data nilai kerusakan dan kerugian berasal dari usulan rehabilitasi dan rekonstruksi, bukan catatan lengkap semua dampak bencana.
 
-## Data dan lineage
-Sumber dan format mentah terdiri atas 58 berkas (39 JSON datastore/CKAN BNPB, 15 XLSX rekapitulasi BNPB, dan 4 JSON WDI) dari snapshot 20 Oktober 2026. Setiap baris Silver menyimpan `_berkas_raw` dan `_sha256_raw` yang diverifikasi terhadap `data/raw/MANIFEST.csv`.
+### Data dan lineage
+Tim memproses 58 berkas mentah: 39 JSON BNPB, 15 XLSX, dan 4 JSON WDI. Jumlah baris mentah yang tercatat adalah 15.058. Silver berisi 18.187 baris, 15 seri, 40 jenis rincian, dan 39 wilayah (Indonesia serta 38 provinsi). Setiap baris Silver menyimpan nama berkas sumber dan SHA-256 untuk penelusuran ke [MANIFEST](../data/raw/MANIFEST.csv). Angka ekstraksi dan Silver dapat dicek di [metrik NIM 124450071](../results/124450071/metrics.json) dan [metrik NIM 124450048](../results/124450048/metrics.json).
 
-## Masalah data dan penanganannya
-Temuan penting Sprint 1:
+### Masalah data dan penanganannya
 
-- **Bagian data yang kosong:** Tabel berisi 14 jenis data untuk 16 tahun dan 38 provinsi (8.512 kombinasi). Bagian kosong tidak selalu berarti datanya hilang: sumber mungkin tidak punya data provinsi, atau provinsinya belum terbentuk. Karena itu, bagian kosong tidak diisi nol (K-006–K-007). Contohnya, data `fasyankes_rusak` kosong untuk 1 provinsi pada 2021 dan 5 provinsi pada 2022 (K-010–K-011). Dua jenis data luas lahan hanya tersedia sebagai jumlah nasional ([profil seri](profil-per-seri.csv)). Data `nilai_kerugian` dan `nilai_kerusakan` juga belum lengkap: pada 2015 masing-masing hanya ada untuk 1 dari 34 provinsi, sedangkan pada 2024 hanya ada untuk 2 dari 38 provinsi ([kelengkapan panel](kelengkapan-panel-per-tahun.csv)).
-- **Angka yang jauh berbeda:** Pemeriksaan menemukan 201 angka yang jauh berbeda dari biasanya (K-005). Angka-angka itu tetap disimpan karena belum ada bukti bahwa nilainya salah. Contohnya, jumlah `rumah_rusak` di Aceh pada 2025 adalah 198.082; angka ini bisa dihitung dari [Silver](../data/silver/silver.parquet) dan ada di [daftar calon anomali](calon-anomali.csv).
-- **Perubahan besar:** Tidak ditemukan perubahan besar yang terjadi bersamaan di banyak provinsi. Untuk `rumah_rusak` dari 2021 ke 2022, angka turun di 25 dari 33 provinsi yang memiliki data pada kedua tahun. Namun, angka tengahnya hanya turun sekitar 22%, belum mencapai batas 50% ([hasil uji](uji-patahan-seri.csv), K-005).
-- **Data kembar dan revisi:** Pada data 2024, 266 pasangan angka dibandingkan. Semuanya sama, jadi tidak ada revisi angka yang perlu dipilih. Sebanyak 228 salinan yang sama hanya dihitung sekali (K-004).
-- **Perbaikan keterangan data:** Satuan dua jenis data luas diperbaiki menjadi hektar. Satuan WDI `EN.CLC.MDAT.ZS` ditetapkan sebagai persen. Kode SDG juga dibakukan: kerusakan fasilitas/infrastruktur memakai 11.5.2, kerugian ekonomi langsung memakai 1.5.2, dan WDI memakai 1.5.1 (K-044–K-046). Periode asli tetap disimpan di Silver; sesuai keputusan tim, data baru diringkas per tahun di Gold (K-047).
+| Masalah | Bukti di repo | Penanganan | Jumlah/dampak | Log |
+|---|---|---|---:|---|
+| Bentuk berkas berbeda | XLSX memakai judul bertingkat dan sel wilayah yang digabung. | Judul dibaca secara eksplisit; nama wilayah diteruskan ke baris berikutnya saat diperlukan. | 0 baris berubah | [K-003](../log-keputusan.csv) |
+| Bagian panel kosong | Grid berisi 14 seri × 16 tahun × 38 provinsi. `fasyankes_rusak` kosong untuk 1 provinsi pada 2021 dan 5 pada 2022. | Tahun tanpa sumber provinsi dibedakan dari data yang benar-benar kosong. Bagian kosong tidak diisi nol. | 8.512 sel grid; 1 dan 5 sel kosong | [K-006](../log-keputusan.csv), [K-010–K-011](../log-keputusan.csv) |
+| Provinsi belum terbentuk | Data untuk 62 sel sebelum provinsi dibentuk tetap disimpan untuk pemeriksaan, tetapi tidak dipakai sebagai nilai analisis. | Provinsi baru hanya dihitung sejak tahun terbentuk; Indonesia disimpan terpisah dari provinsi. | 514 baris terdampak | [K-001](../log-keputusan.csv), [K-007](../log-keputusan.csv) |
+| Rincian rumah rusak berbeda | Sumber 2021–2022 memuat tingkat kerusakan, sedangkan sumber lain dapat hanya memuat total. | Nama kategori diseragamkan. Total tetap dibedakan dari rincian; rincian yang tidak tersedia tidak dianggap nol. | 14.401 baris menurut log | [K-008](../log-keputusan.csv), [kamus rincian](kamus-rincian-rumah-rusak.csv) |
+| Angka ekstrem dan perubahan tahunan | Ada 201 calon angka ekstrem. Tidak ditemukan salah input yang terbukti atau patahan serentak. Pada `rumah_rusak`, angka turun di 25 dari 33 provinsi pada 2021–2022, tetapi angka tengah hanya turun sekitar 22%, di bawah batas 50%. | Angka ekstrem tetap disimpan. Angka tidak diperbaiki tanpa bukti dari sumber. | 201 calon; 0 angka diperbaiki; 0 patahan | [K-005](../log-keputusan.csv), [hasil profil](tahap-2-profil-anomali.md), [hasil uji patahan](uji-patahan-seri.csv) |
+| Salinan dan revisi antarberkas | Dari 266 pasangan data 2024 yang dibandingkan, semuanya sama; tidak ada nilai berbeda. | Salinan sama hanya dihitung sekali. Jika ada nilai berbeda, keduanya harus ditelusuri sebelum memilih angka. | 228 salinan tidak dihitung ulang | [K-004](../log-keputusan.csv), [audit snapshot](audit-snapshot-2024.csv) |
+| Jumlah kabupaten/kota berbeda dari provinsi | Dari 1.456 pasangan, 1.294 cocok dan 162 berbeda. | Selisih dipertahankan dan tidak dikoreksi otomatis. | 162 pasangan berbeda | [K-009](../log-keputusan.csv), [hasil uji agregasi](uji-agregasi-kabupaten-provinsi.csv) |
+| Keterangan katalog belum tepat | Satuan dua seri luas belum tercatat; satuan WDI kosong; beberapa kode SDG ganda atau belum diisi. | Satuan luas ditetapkan sebagai hektar, WDI sebagai persen, dan kode SDG dibakukan. Periode asli tetap di Silver; data diringkas per tahun di Gold. | 0 baris nilai diubah | [K-044–K-047](../log-keputusan.csv), [katalog seri](../docs/seri.csv) |
 
-Angka dapat dicek di [`log-keputusan.csv`](../log-keputusan.csv), [`silver.parquet`](../data/silver/silver.parquet), [`profil-per-seri.csv`](profil-per-seri.csv), [`calon-anomali.csv`](calon-anomali.csv), [`uji-patahan-seri.csv`](uji-patahan-seri.csv), dan [`kelengkapan-panel-per-tahun.csv`](kelengkapan-panel-per-tahun.csv).
+### Integrasi dan rekonsiliasi
+Tiga pasangan sudah disiapkan di [pasangan-rekonsiliasi.md](pasangan-rekonsiliasi.md). Angka selisihnya akan diuji pada Sprint 2.
 
-## Integrasi dan rekonsiliasi
-Seri utama vs pembanding nasional: selisih, penjelasannya (definisi, metode, vintage, granularitas),
-dan hasil analisis revisi dari arsip WDI.
+- P1: Rumah rusak akibat banjir pada baris Indonesia dibandingkan dengan jumlah 38 provinsi. Ada 16 tahun yang sama; nilainya diharapkan sama.
+- P2: Rincian rumah rusak akibat banjir tahun 2025 dibandingkan dengan jumlah tingkat berat, sedang, dan ringan. Ada 1 tahun yang sama; jumlahnya diharapkan sama.
+- P3: WDI tentang penduduk terdampak bencana dipakai sebagai konteks, bukan untuk menghitung selisih dengan jumlah rumah rusak. Tidak ada tahun yang sama.
 
-## Penyimpanan Silver (draf Tahap 5)
-Silver disimpan di SQLite karena ukuran kasus masih sesuai untuk basis data lokal satu berkas;
-SQLite tidak memerlukan server/dependensi tambahan, mendukung transaksi, tipe kolom, dan kunci primer.
-DuckDB lebih unggul untuk analitik kolumnar pada data besar, sementara PostgreSQL lebih cocok untuk
-akses serentak banyak pengguna, tetapi keduanya menambah konfigurasi yang belum dibutuhkan. JSON
-mentah tetap disimpan di Bronze karena mempertahankan bentuk respons dan atribut sumber; JSON lebih
-fleksibel, tetapi query terstruktur, penegakan tipe, dan deduplikasi lebih sulit. Tabel Silver
-menyimpan observasi ternormalisasi beserta hash dan jalur berkas sumber agar tetap dapat ditelusuri.
+Tabel nasional ada di [tabel-nasional.csv](tabel-nasional.csv).
 
-## Validasi dan reproduksibilitas
-Skema validasi (aturan, hasil lolos/gagal), waktu `python pipeline.py` dari nol, perbandingan pandas
-vs DuckDB/Dask, dan keterbatasan yang tersisa.
+### Validasi dan reproduksibilitas
+Pemeriksaan skema Silver lolos: 18.187 baris, 15 seri, dan 39 wilayah. Metrik validasi mencatat 12 dari 12 aturan lolos dan 11 kolom terdokumentasi ([metrik validasi](../results/124450063/metrics.json)).
 
-## Pembagian kerja
-| Anggota | NIM | Komponen | Tugas sampingan | Bagian laporan yang ditulis |
-|---|---|---|---|---|
-| Nabila Nur Azizah | 124450048 | Transformasi dan panel (Tahap 4) | Koordinator | Ringkasan, Struktur & Skema Panel Gold |
-| Fernando Dimetrius Barus | 124450063 | Validasi dan dokumentasi (Tahap 8) | Penjaga Data & Evaluasi | Validasi dan reproduksibilitas |
-| Abigael Limbong | 124450080 | Integrasi, penyimpanan, dan skala (Tahap 5–7) | Analis Utama | Integrasi dan rekonsiliasi |
-| Muhammad Nadhif Al Rayyan | 124450071 | Ekstraksi, profil, dan pembersihan (Tahap 1–3) | Integrator & Reproduksi | Data dan lineage, Masalah data |
+Silver juga dimuat ke SQLite, dengan 18.187 baris. Tim memilih SQLite karena mudah dijalankan secara lokal tanpa server. JSON mentah tetap disimpan sebagai sumber asli; SQLite lebih mudah dipakai untuk mencari data dengan kolom, tipe, dan kunci yang jelas. DDL, pemuat, dan alasan pilihan ada di [sqlite.py](../src/silver/sqlite.py) dan [dokumen penyimpanan](../docs/tahap-5-penyimpanan.md).
 
+Catatan Sprint 1 menyebut langkah ekstraksi di `python pipeline.py` selesai dalam 1,5 detik. Waktu seluruh pipeline belum dicatat ([catatan Sprint 1](../sprint/sprint-1/124450071.md)).
+
+### Pembagian kerja
+Pembagian komponen mengikuti kesepakatan tim. Catatan pekerjaan Sprint 1 ada di [sprint/sprint-1/](../sprint/sprint-1), sedangkan metrik anggota ada di [results/](../results).
