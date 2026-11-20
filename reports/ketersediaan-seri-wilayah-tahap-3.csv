@@ -1,0 +1,673 @@
+seri,periode,tingkat_wilayah,ada_sumber,sumber,metode
+kejadian,2010,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2010,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2010,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2011,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2011,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2011,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2012,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2012,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2012,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2013,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2013,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2013,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2014,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2014,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2014,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2015,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2015,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2015,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2016,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2016,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2016,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2017,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2017,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2017,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2018,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2018,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2018,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2019,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2019,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2019,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2020,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2020,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2020,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2021,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx | 5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2021,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json | rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+kejadian,2022,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2022,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json | 692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+kejadian,2022,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json | rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+kejadian,2023,nasional,True,9b41007e-c998-456b-8cbc-385b17986e46.json,langsung dari sumber
+kejadian,2023,provinsi,True,5dfcae7e-6f86-4490-840a-c1bc6393102b.json,observasi tahap 2 dari sumber provinsi
+kejadian,2023,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json,langsung dari sumber
+kejadian,2024,nasional,True,f345ba43-99aa-428c-82d8-4b6a0bba380e.json,langsung dari sumber
+kejadian,2024,provinsi,True,f345ba43-99aa-428c-82d8-4b6a0bba380e.json,observasi tahap 2 dari sumber provinsi
+kejadian,2024,kabupaten_kota,True,21044ffd-c397-4b3c-acbd-5adaa03d79e3.json | 5ff9f41f-8312-4b7c-aa18-fdbedac6ee7e.json,langsung dari sumber
+kejadian,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+kejadian,2025,provinsi,True,df39e8c3-117e-40fa-b518-ff1037743955-jumlah-kejadian-bencana-menurut-provinsi-2025.xlsx,observasi tahap 2 dari sumber provinsi
+kejadian,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2010,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2011,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2012,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2013,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2014,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2015,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2016,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2017,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2018,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2019,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2020,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2021,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+rumah_rusak,2022,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+rumah_rusak,2023,nasional,True,27bbeb6b-6f86-4490-840a-c1bc6393102b.json,langsung dari sumber
+rumah_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_rusak,2024,nasional,True,b5e3d843-cf11-4333-b8e3-233a2279b65a.json,langsung dari sumber
+rumah_rusak,2024,provinsi,True,b5e3d843-cf11-4333-b8e3-233a2279b65a.json,observasi tahap 2 dari sumber provinsi
+rumah_rusak,2024,kabupaten_kota,True,5c9f7ea9-f809-487c-b1f8-f05a6f3291b3.json,langsung dari sumber
+rumah_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+rumah_rusak,2025,provinsi,True,43b83e79-c8b6-4b9a-b2f0-d1cbd9cfa636-jumlah-rumah-rusak-akibat-bencana-menurut-provinsi-2025.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2010,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2011,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2012,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2013,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2014,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2015,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2016,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2017,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2018,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2019,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2020,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2021,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_terendam,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+rumah_terendam,2022,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_terendam,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+rumah_terendam,2023,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2024,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2024,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2024,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_terendam,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2010,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2011,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2012,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2013,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2014,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2015,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2016,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2017,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2018,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2019,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2020,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2021,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+fasyankes_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+fasyankes_rusak,2022,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+fasyankes_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+fasyankes_rusak,2023,nasional,True,b2b878ac-988e-4ef3-8deb-c279b1097dac.json,langsung dari sumber
+fasyankes_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2024,nasional,True,26858365-9061-4ff7-9ccf-53480c6efb61.json,langsung dari sumber
+fasyankes_rusak,2024,provinsi,True,26858365-9061-4ff7-9ccf-53480c6efb61.json,observasi tahap 2 dari sumber provinsi
+fasyankes_rusak,2024,kabupaten_kota,True,353da3aa-9ada-42aa-a5c2-e653d52ffd9c.json,langsung dari sumber
+fasyankes_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+fasyankes_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+fasyankes_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2010,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2011,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2012,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2013,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2014,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2015,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2016,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2017,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2018,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2019,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2020,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2021,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+satuan_pendidikan_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+satuan_pendidikan_rusak,2022,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+satuan_pendidikan_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+satuan_pendidikan_rusak,2023,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2024,nasional,True,76c8231d-75e8-4e8e-bb9a-1b35ba6ed1f3.json,langsung dari sumber
+satuan_pendidikan_rusak,2024,provinsi,True,76c8231d-75e8-4e8e-bb9a-1b35ba6ed1f3.json,observasi tahap 2 dari sumber provinsi
+satuan_pendidikan_rusak,2024,kabupaten_kota,True,8eea8adc-3c4d-4d0d-be9f-6d170127ff6c.json,langsung dari sumber
+satuan_pendidikan_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+satuan_pendidikan_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+satuan_pendidikan_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2010,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2011,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2012,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2013,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2014,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2015,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2016,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2017,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2018,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2019,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2020,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2021,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+jembatan_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+jembatan_rusak,2022,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+jembatan_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+jembatan_rusak,2023,nasional,True,f34f5637-b0e0-4920-b0cf-94792588d6ce.json,langsung dari sumber
+jembatan_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2024,nasional,True,ad86fca8-b15b-4fb6-b30c-259ab32e3113.json,langsung dari sumber
+jembatan_rusak,2024,provinsi,True,ad86fca8-b15b-4fb6-b30c-259ab32e3113.json,observasi tahap 2 dari sumber provinsi
+jembatan_rusak,2024,kabupaten_kota,True,sumber kabupaten/kota fdebc70a,langsung dari sumber
+jembatan_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+jembatan_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+jembatan_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2010,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2011,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2012,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2013,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2014,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2015,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2016,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2017,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2018,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2019,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2020,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2021,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+kantor_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+kantor_rusak,2022,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+kantor_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+kantor_rusak,2023,nasional,True,4dac65ee-a826-4ba7-8f97-63047b842cfd.json,langsung dari sumber
+kantor_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2024,nasional,True,091da066-4aca-4699-bd51-a2452f371778-jumlah-kantor-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,langsung dari sumber
+kantor_rusak,2024,provinsi,True,091da066-4aca-4699-bd51-a2452f371778-jumlah-kantor-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,observasi tahap 2 dari sumber provinsi
+kantor_rusak,2024,kabupaten_kota,True,caefcb96-50a3-4a32-af0f-9ccc4bbcf487.json,langsung dari sumber
+kantor_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+kantor_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kantor_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2010,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2011,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2012,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2013,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2014,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2015,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2016,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2017,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2018,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2019,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2020,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2021,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2021,provinsi,True,0c165adc-5be2-489d-8b1a-e90c6715e73e-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2021-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_ibadat_rusak,2021,kabupaten_kota,True,rekap kabupaten/kota 2021 XLSX,langsung dari sumber
+rumah_ibadat_rusak,2022,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2022,provinsi,True,692df9e1-a8f8-49b3-a78f-de5795fb6e79-tabel-jumlah-kejadian-korban-dan-kerusakan-akibat-bencana-tahun-2022-per-provinsi.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_ibadat_rusak,2022,kabupaten_kota,True,rekap kabupaten/kota 2022 XLSX,langsung dari sumber
+rumah_ibadat_rusak,2023,nasional,True,759ee230-c78c-48a1-bf0d-9596accb524c.json,langsung dari sumber
+rumah_ibadat_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2024,nasional,True,200c487f-e0fc-4dd3-8cf0-b4222d460229-jumlah-rumah-ibadat-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,langsung dari sumber
+rumah_ibadat_rusak,2024,provinsi,True,200c487f-e0fc-4dd3-8cf0-b4222d460229-jumlah-rumah-ibadat-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,observasi tahap 2 dari sumber provinsi
+rumah_ibadat_rusak,2024,kabupaten_kota,True,d81153ed-d515-4d03-be64-6591c83b9539.json,langsung dari sumber
+rumah_ibadat_rusak,2025,nasional,True,6e947c9c-2404-4c02-b743-34dc5320f399-rekapitulasi-jumlah-kejadian-dan-dampak-bencana-menurut-provinsi-2025.xlsx,langsung dari sumber
+rumah_ibadat_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+rumah_ibadat_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2010,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2011,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2012,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2013,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2014,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2015,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2016,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2017,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2018,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2019,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2020,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2021,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2021,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2021,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2022,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2022,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2022,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2023,nasional,True,69882257-7893-4eca-9f8a-c1391d4ed788.json,langsung dari sumber
+kios_toko_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2024,nasional,True,cbc56396-4cfa-4959-b9bd-38bf9d4a2d6c-jumlah-kios-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,langsung dari sumber
+kios_toko_rusak,2024,provinsi,True,cbc56396-4cfa-4959-b9bd-38bf9d4a2d6c-jumlah-kios-yang-rusak-akibat-bencana-menurut-provinsi-2024.xlsx,observasi tahap 2 dari sumber provinsi
+kios_toko_rusak,2024,kabupaten_kota,True,sumber kabupaten/kota 135f1962,langsung dari sumber
+kios_toko_rusak,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+kios_toko_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2010,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2011,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2012,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2013,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2014,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2015,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2016,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2017,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2018,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2019,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2020,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2021,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2021,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2021,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2022,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2022,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2022,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2023,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2024,nasional,True,5f69273d-7755-4a5f-82f7-617303ba78ec.json,langsung dari sumber
+pabrik_rusak,2024,provinsi,True,5f69273d-7755-4a5f-82f7-617303ba78ec.json,observasi tahap 2 dari sumber provinsi
+pabrik_rusak,2024,kabupaten_kota,True,sumber kabupaten/kota 11ba1fdc,langsung dari sumber
+pabrik_rusak,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+pabrik_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2010,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2011,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2012,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2013,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2014,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2015,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2016,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2017,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2018,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2019,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2020,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2021,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2021,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2021,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2022,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2022,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2022,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2023,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2024,nasional,True,cda5f236-01f8-4b1f-945d-192806480fac.json,langsung dari sumber
+luas_sawah_rusak,2024,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2024,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_sawah_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2010,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2011,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2012,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2013,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2014,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2015,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2015,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2015,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2016,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2016,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2016,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2017,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2017,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2017,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2018,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2018,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2018,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2019,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2019,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2019,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2020,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2020,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2020,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2021,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2021,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2021,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2022,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2022,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2022,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2023,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2023,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2023,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2024,nasional,True,1e489e0a-77a1-4ac5-9511-ce436aee0132.json,langsung dari sumber
+luas_lahan_kebun_hutan_rusak,2024,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2024,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+luas_lahan_kebun_hutan_rusak,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2010,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2011,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2012,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2013,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2014,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2015,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2015,provinsi,True,36ec22b9-27f6-4aa4-a3a8-595fca2fe5c1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2015,kabupaten_kota,True,36ec22b9-27f6-4aa4-a3a8-595fca2fe5c1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2016,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2016,provinsi,True,520b34fd-a047-46a4-b595-e8b1d57faba1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2016,kabupaten_kota,True,520b34fd-a047-46a4-b595-e8b1d57faba1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2017,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2017,provinsi,True,e2c2ed75-c2c4-4f3b-90e3-3565b516c3f0.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2017,kabupaten_kota,True,e2c2ed75-c2c4-4f3b-90e3-3565b516c3f0.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2018,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2018,provinsi,True,b1aa4eb5-d325-44f1-8598-7cdf44073173.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2018,kabupaten_kota,True,b1aa4eb5-d325-44f1-8598-7cdf44073173.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2019,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2019,provinsi,True,bcf4f458-dcbc-4211-8bd2-db25e7aa45e6.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2019,kabupaten_kota,True,bcf4f458-dcbc-4211-8bd2-db25e7aa45e6.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2020,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2020,provinsi,True,c013b8a0-4af3-416a-aec2-00feb6dd20a7.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2020,kabupaten_kota,True,c013b8a0-4af3-416a-aec2-00feb6dd20a7.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2021,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2021,provinsi,True,53f8dc76-8fac-49b1-8314-79948649a345.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2021,kabupaten_kota,True,53f8dc76-8fac-49b1-8314-79948649a345.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2022,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2022,provinsi,True,cf6d0735-b669-4059-aacb-2d9f31350661.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2022,kabupaten_kota,True,cf6d0735-b669-4059-aacb-2d9f31350661.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2023,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2023,provinsi,True,a66a93b0-1773-4928-ba1e-7b9ffd43b439.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2023,kabupaten_kota,True,a66a93b0-1773-4928-ba1e-7b9ffd43b439.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2024,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2024,provinsi,True,03d7c28f-db2d-4fa3-a1e9-66109d7162d5.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerugian,2024,kabupaten_kota,True,03d7c28f-db2d-4fa3-a1e9-66109d7162d5.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerugian,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerugian,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2010,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2010,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2010,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2011,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2011,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2011,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2012,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2012,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2012,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2013,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2013,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2013,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2014,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2014,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2014,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2015,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2015,provinsi,True,36ec22b9-27f6-4aa4-a3a8-595fca2fe5c1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2015,kabupaten_kota,True,36ec22b9-27f6-4aa4-a3a8-595fca2fe5c1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2016,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2016,provinsi,True,520b34fd-a047-46a4-b595-e8b1d57faba1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2016,kabupaten_kota,True,520b34fd-a047-46a4-b595-e8b1d57faba1.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2017,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2017,provinsi,True,e2c2ed75-c2c4-4f3b-90e3-3565b516c3f0.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2017,kabupaten_kota,True,e2c2ed75-c2c4-4f3b-90e3-3565b516c3f0.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2018,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2018,provinsi,True,b1aa4eb5-d325-44f1-8598-7cdf44073173.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2018,kabupaten_kota,True,b1aa4eb5-d325-44f1-8598-7cdf44073173.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2019,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2019,provinsi,True,bcf4f458-dcbc-4211-8bd2-db25e7aa45e6.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2019,kabupaten_kota,True,bcf4f458-dcbc-4211-8bd2-db25e7aa45e6.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2020,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2020,provinsi,True,c013b8a0-4af3-416a-aec2-00feb6dd20a7.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2020,kabupaten_kota,True,c013b8a0-4af3-416a-aec2-00feb6dd20a7.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2021,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2021,provinsi,True,53f8dc76-8fac-49b1-8314-79948649a345.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2021,kabupaten_kota,True,53f8dc76-8fac-49b1-8314-79948649a345.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2022,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2022,provinsi,True,cf6d0735-b669-4059-aacb-2d9f31350661.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2022,kabupaten_kota,True,cf6d0735-b669-4059-aacb-2d9f31350661.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2023,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2023,provinsi,True,a66a93b0-1773-4928-ba1e-7b9ffd43b439.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2023,kabupaten_kota,True,a66a93b0-1773-4928-ba1e-7b9ffd43b439.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2024,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2024,provinsi,True,03d7c28f-db2d-4fa3-a1e9-66109d7162d5.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,agregat provinsi tahap 2 dari catatan proposal; bukan tabel provinsi langsung
+nilai_kerusakan,2024,kabupaten_kota,True,03d7c28f-db2d-4fa3-a1e9-66109d7162d5.json | fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,langsung dari sumber
+nilai_kerusakan,2025,nasional,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2025,provinsi,False,,tidak ditemukan sumber pada tingkat wilayah ini
+nilai_kerusakan,2025,kabupaten_kota,False,,tidak ditemukan sumber pada tingkat wilayah ini
