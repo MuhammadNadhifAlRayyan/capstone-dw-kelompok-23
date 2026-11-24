@@ -189,3 +189,4 @@ GOLD_AGREGAT = {"rumah_rusak": dict(rincian="jenis_bencana=banjir", berkas_sama=
 for _p in PASANGAN:
     _p["kategori_baku"] = KATEGORI_BAKU[_p["id"]]
     _p.update(UBAH_PASANGAN.get(_p["id"], {}))
+
