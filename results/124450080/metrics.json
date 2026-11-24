@@ -1,6 +1,22 @@
 {
   "metrik": {
-    "berkas_diverifikasi": 58
+    "berkas_diverifikasi": 58,
+    "pasangan_rekonsiliasi": 2,
+    "selisih_median": 0.0,
+    "periode_beririsan": 17,
+    "irisan_p1": 16,
+    "irisan_p2": 1,
+    "irisan_p3": 0,
+    "baris_rekonsiliasi": 33,
+    "selisih_dihitung": 3,
+    "selisih_utama_dihitung": 3,
+    "baris_tanpa_pasangan": 29,
+    "kategori_dipakai": 3,
+    "rek_p1_median": 0.0,
+    "rek_p2_median": 0.0,
+    "rek_p1_dihitung": 2,
+    "rek_p2_dihitung": 1,
+    "rek_p3_dihitung": 0
   },
   "seed": 0,
   "data_hash": "a764c4e125ad7afa9eb401b36f4414fe47f126e8cd4f5cc7e489de5be39d51cd",
