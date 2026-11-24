@@ -94,10 +94,15 @@ yang siap untuk analisis statistik, pemodelan deret waktu/panel, serta rekonsili
 ### 4.5 Dampak Finansial & Transformasi Skala
 | Nama Kolom | Tipe Data | Keterangan |
 |---|---|---|
-| `nilai_kerugian_rp` | `float64` | Estimasi nilai kerugian riil (Rupiah) |
-| `nilai_kerusakan_rp` | `float64` | Estimasi nilai kerusakan aset riil (Rupiah) |
-| `log_nilai_kerugian` | `float64` | $\log(1 + \text{nilai\_kerugian\_rp})$ untuk menstabilkan variansi lebar |
-| `log_nilai_kerusakan` | `float64` | $\log(1 + \text{nilai\_kerusakan\_rp})$ untuk menstabilkan variansi lebar |
+| `nilai_kerugian` | `float64` | Nilai kerugian nominal dalam rupiah; tidak disesuaikan dengan inflasi |
+| `nilai_kerusakan` | `float64` | Nilai kerusakan aset nominal dalam rupiah; tidak disesuaikan dengan inflasi |
+| `log_nilai_kerugian` | `float64` | $\log(1 + \text{nilai\_kerugian})$ atas nilai nominal rupiah |
+| `log_nilai_kerusakan` | `float64` | $\log(1 + \text{nilai\_kerusakan})$ atas nilai nominal rupiah |
+
+Nilai kerusakan adalah kerusakan aset fisik; nilai kerugian adalah dampak ekonomi.
+Keduanya disimpan sebagai indikator terpisah dan tidak dijumlahkan. Transformasi `log1p`
+hanya menambah fitur berskala log untuk analisis; nilai rupiah asli tetap ada.
+Tidak ada deflasi karena indeks harga dan tahun dasar yang sesuai belum ditetapkan.
 
 ---
 
@@ -112,3 +117,32 @@ yang siap untuk analisis statistik, pemodelan deret waktu/panel, serta rekonsili
    - Tidak dilakukan penggabungan paksa berbasis bobot penduduk agar tidak mengubah keaslian data mentah.
 3. **Pemisahan Jalur Nasional:**
    - Baris dengan `wilayah_kode = 9999` (Indonesia) dialokasikan ke `gold_nasional.parquet` dan digunakan pada Tahap 6 untuk rekonsiliasi agregat provinsi vs angka nasional.
+
+## 6. Aturan Seleksi Observasi Gold
+
+Fungsi `pilih_observasi_gold` di `src/gold/aturan.py` dipanggil saat `python pipeline.py`
+membangun Gold. Kunci Gold adalah provinsi × tahun × indikator; tabel nasional memakai
+wilayah × periode asli × indikator. Aturan dan hitungan baris Silver yang tidak terpilih
+ditulis/diperbarui pada `log-keputusan.csv` (K-101–K-105). Dampak nol berarti aturan
+tersebut tidak mengecualikan baris Silver.
+
+1. **Snapshot dan revisi:** untuk indikator, wilayah, periode, dan rincian yang sama,
+   snapshot dengan tanggal pada jalur sumber terbaru dipilih. Jika tanggal sama, kompilasi
+   BNPB terbaru diprioritaskan; `_berkas_raw` leksikografis menjadi pemutus seri deterministik.
+   Nilai yang tidak dipilih tidak dijumlahkan. Baris terpilih tetap membawa `_berkas_raw`
+   dan `_sha256_raw`; baris Silver sumber tidak dihapus.
+2. **Rincian:** panel provinsi menggunakan rincian `total` sumber bila tersedia. Jika sumber
+   hanya memiliki `jenis_bencana=...`, nilai kategori dijumlahkan satu kali untuk total seri;
+   rincian jenis bencana tetap berada di Silver. Untuk `rumah_rusak`, `berat`, `sedang`, dan
+   `ringan` menjadi indikator terpisah saat tersedia. Total rumah rusak berasal dari total
+   sumber, atau dijumlahkan dari rincian jenis bencana, atau diturunkan dari tiga tingkat
+   kerusakan hanya bila ketiganya tersedia. Total tidak dijumlahkan lagi dengan rinciannya.
+   Ketersediaan tingkat kerusakan tidak diisi dengan nol. Nilai kerusakan dan kerugian tidak
+   saling ditambahkan.
+3. **Frekuensi:** panel provinsi tahap ini hanya memuat periode tahunan 2010–2025.
+   Periode semester/bulan tidak dijumlahkan atau disebarkan menjadi data tahunan; observasinya
+   tetap di Silver sampai aturan agregasi dan kelengkapan periode dapat dibuktikan. Tabel
+   nasional mempertahankan label periode sumber.
+4. **Tanda Sprint 1:** tanda outlier dan patahan dari `reports/klasifikasi-anomali.csv` dan
+   `reports/uji-patahan-seri.csv` diteruskan ke kolom flag per indikator; observasi dan nilainya
+   tidak dihapus atau diubah karena tanda tersebut.

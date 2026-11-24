@@ -1,4 +1,4 @@
-# Hasil validasi Silver
+# Hasil validasi Silver dan Gold
 
 Dihasilkan `python pipeline.py` (`src/validasi/`). Aturan keras menghentikan pipeline bila gagal; peringatan dilaporkan untuk diperiksa manusia. Aturan juga diuji dengan baris yang sengaja dirusak (`pytest`, berkas `tests/test_validasi.py`).
 
@@ -18,12 +18,22 @@ Dihasilkan `python pipeline.py` (`src/validasi/`). Aturan keras menghentikan pip
 | kerusakan_kabkota_sama_provinsi | peringatan (kasus) | unit rusak jumlah kab/kota ≠ provinsi (peringatan) | PERINGATAN (2 baris) |
 | indonesia_sama_lintas_berkas | peringatan (kasus) | baris Indonesia berbeda antarberkas (peringatan) | PERINGATAN (1 baris) |
 | nilai_rekap_sama_tabel_tahunan | peringatan (kasus) | nilai rekap 2015–2024 ≠ tabel per tahun (peringatan) | PERINGATAN (4 baris) |
+| gold: kunci panel unik | keras (Gold) | indikator + wilayah_kode + periode tidak kembar | LOLOS |
+| gold: satu satuan per indikator | keras (Gold) | satu indikator panel hanya punya satu satuan | LOLOS |
+| gold: status sel dan nilai | keras (Gold) | status sel baku; nilai ada jika dan hanya jika sel terisi | LOLOS |
+| gold: sel tertelusur ke Silver | keras (Gold) | setiap sel terisi punya baris Silver asal (seri, wilayah, periode, berkas) | LOLOS |
+| gold: nilai sama dengan Silver | keras (Gold) | nilai panel = nilai Silver asalnya (tidak ada nilai yang diubah di Gold) | LOLOS |
+| gold: tabel nasional unik | keras (Gold) | seri + rincian + periode tidak kembar | LOLOS |
+| rekonsiliasi: kategori baku | keras (Gold) | kategori dari daftar baku; penjelasan tidak kosong | LOLOS |
+| rekonsiliasi: selisih = utama − pembanding | keras (Gold) | selisih dihitung ulang dan cocok | LOLOS |
+| rekonsiliasi: baris berpasangan dihitung | keras (Gold) | pasangan selisih dengan dua nilai punya selisih, atau catatan mengapa tidak | LOLOS |
+| rekonsiliasi: periode utama tidak dibuang | keras (Gold) | setiap tahun seri utama di tabel nasional muncul di rekonsiliasi | LOLOS |
 
 ## Kegagalan aturan umum
 
 Tidak ada.
 
-## Baris yang memicu aturan kasus
+## Baris yang memicu aturan kasus dan Gold
 
 ### kejadian_kabkota_tidak_kurang
 
