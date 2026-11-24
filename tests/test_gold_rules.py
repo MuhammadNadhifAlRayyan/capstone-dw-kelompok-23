@@ -77,7 +77,7 @@ class GoldRuleTests(unittest.TestCase):
                     "wilayah_kode": 1100,
                     "periode": "2020",
                     "flag_outlier": True,
-                    "flag_patahan": False,
+                    "flag_patahan": True,
                 }
             ]
         )
@@ -87,13 +87,27 @@ class GoldRuleTests(unittest.TestCase):
         selected = panel_rows.query("seri_kode == 'kejadian'").iloc[0]
         self.assertEqual(selected["nilai"], 12)
         self.assertTrue(selected["flag_outlier"])
+        self.assertTrue(selected["flag_patahan"])
         self.assertEqual(panel_rows["_indikator"].tolist(), ["kejadian", "rumah_rusak_berat"])
-        self.assertEqual(counts, {"K-101": 1, "K-102": 1, "K-103": 1})
+        self.assertEqual(
+            counts,
+            {
+                "K-101": 1,
+                "K-102": 1,
+                "K-103": 1,
+                "K-104": 0,
+                "K-105": 0,
+            },
+        )
         self.assertEqual(national["indikator"].tolist(), ["EN.CLC.MDAT.ZS"])
         with aturan.LOG_PATH.open(encoding="utf-8", newline="") as logged:
             decisions = {row["id"]: row for row in csv.DictReader(logged)}
         self.assertEqual(decisions["K-101"]["tahap"], "gold")
         self.assertEqual(decisions["K-101"]["dampak_baris"], "1")
+        self.assertIn("tidak disesuaikan dengan inflasi", decisions["K-104"]["keputusan"])
+        self.assertIn("flag outlier serta patahan", decisions["K-105"]["keputusan"])
+        self.assertEqual(decisions["K-104"]["dampak_baris"], "0")
+        self.assertEqual(decisions["K-105"]["dampak_baris"], "0")
 
     def test_builds_unique_wide_panel_and_keeps_flags(self):
         with patch(

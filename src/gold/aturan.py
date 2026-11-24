@@ -360,6 +360,20 @@ def _write_decisions(counts):
             "alternatif_ditolak": "Menjumlahkan sub-periode tanpa bukti kelengkapan cakupan atau menggandakan satu nilai tahunan ke setiap sub-periode.",
             "alasan": "Frekuensi observasi tidak dicampur; data sub-tahunan tetap dapat digunakan pada analisis dengan frekuensi yang sesuai.",
         },
+        {
+            "id": "K-104",
+            "seri_kode": "nilai_kerugian; nilai_kerusakan",
+            "keputusan": "Simpan nilai rupiah nominal dan tambahkan transformasi log1p untuk analisis; nilai tidak disesuaikan dengan inflasi karena indeks harga dan tahun dasar yang sesuai belum ditetapkan.",
+            "alternatif_ditolak": "Menggabungkan kerugian dengan kerusakan atau menyajikan nilai nominal seolah-olah sudah riil.",
+            "alasan": "Kerugian dan kerusakan adalah konsep terpisah. log1p mengurangi rentang skala tanpa menghapus nilai asli atau mengklaim daya beli antarwaktu yang belum dihitung.",
+        },
+        {
+            "id": "K-105",
+            "seri_kode": "semua seri Gold",
+            "keputusan": "Pertahankan nilai dan teruskan flag outlier serta patahan dari klasifikasi Sprint 1 ke indikator Gold; flag tidak menjadi alasan untuk menghapus, mengubah, atau mengimputasi nilai.",
+            "alternatif_ditolak": "Menghapus outlier, menghaluskan patahan, atau menghilangkan penanda saat membentuk Gold.",
+            "alasan": "Observasi ekstrem dan perubahan seri yang teridentifikasi tetap dapat diaudit dan dipertimbangkan saat analisis.",
+        },
     ]
     by_id = {row.get("id"): row for row in rows}
     for rule in definitions:
@@ -491,6 +505,8 @@ def pilih_observasi_gold(silver, flags=None):
         + other_snapshot_excluded,
         "K-102": detail_excluded,
         "K-103": period_excluded,
+        "K-104": 0,
+        "K-105": 0,
     }
     _write_decisions(counts)
     return provincial, national, counts
