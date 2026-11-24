@@ -169,3 +169,24 @@ PASANGAN = [
          alasan_rincian="WDI tanpa rincian; BNPB banjir sebagai contoh jenis yang tercakup",
          pertanyaan=[("Mengapa tidak dihitung selisihnya?", "Konsep berbeda (penduduk vs rumah) dan tidak ada tahun yang sama.")]),
 ]
+
+# ------------------------------------------------------------------ Sprint 2: Gold dan rekonsiliasi
+# Keputusan Sprint 2 ditambahkan di bawah keputusan Sprint 1 (lihat log-keputusan.csv).
+
+# Kategori baku setiap pasangan ditetapkan dari bukti Sprint 1 (pertanyaan keterbandingan di atas),
+# tidak diturunkan dari teks.
+KATEGORI_BAKU = {"P1": "belum terjelaskan", "P2": "belum terjelaskan", "P3": "definisi berbeda"}
+
+UBAH_PASANGAN = {
+    # P1: baris INDONESIA dibandingkan dengan jumlah baris provinsi di berkas yang sama.
+    "P1": dict(pembanding_agregat=True),
+    # P2: rekap nasional memecah rumah rusak per tingkat; dijumlahkan dulu menjadi satu angka.
+    "P2": dict(hitung_pembanding=dict(cara="jumlah", label="rumah_rusak berat + sedang + ringan",
+                                      keterangan="pembanding = jumlah rumah rusak berat, sedang, ringan (rekap nasional)")),
+}
+GOLD_AGREGAT = {"rumah_rusak": dict(rincian="jenis_bencana=banjir", berkas_sama=True,
+                                    alasan="jumlah baris provinsi di tabel yang sama dengan baris INDONESIA")}
+for _p in PASANGAN:
+    _p["kategori_baku"] = KATEGORI_BAKU[_p["id"]]
+    _p.update(UBAH_PASANGAN.get(_p["id"], {}))
+
