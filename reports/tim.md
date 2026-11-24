@@ -22,6 +22,19 @@ FROM read_parquet('data/silver/silver.parquet');
 
 Hasil yang terverifikasi: **18.187 baris, 15 seri, 40 rincian, dan 39 wilayah**. Skema menyimpan `_berkas_raw` dan `_sha256_raw` untuk lineage setiap observasi ([data dictionary—skema dan lineage](../docs/data-dictionary.md#L5-L25)).
 
+#### Penyimpanan Basis Data SQL dan Alasan Pemilihan (Tahap 5)
+
+Data Silver dan Gold dimuat ke basis data DuckDB (`data/gold/gudang.duckdb`, 9,4 MB) secara otomatis melalui `src/gold/muat_sql.py` dengan skema DDL berkunci primer dan batasan integritas ([DDL Silver](../src/gold/silver.sql); [DDL Gold](../src/gold/gold.sql); [laporan basis data](basis-data.md)).
+
+- **Struktur tabel dan baris terverifikasi**:
+  - `silver`: 18.187 baris (PK: sumber, seri_kode, wilayah_kode, periode, rincian, _berkas_raw; FK ke tabel seri).
+  - `gold_panel`: 5.244 baris (PK: indikator, wilayah_kode, periode; CHECK status_sel).
+  - `gold_nasional`: 28 baris (PK: seri_kode, rincian, periode; CHECK asal).
+  - `rekonsiliasi`: 33 baris (PK: pasangan_id, seri_pembanding, rincian_pembanding, periode; CHECK kategori).
+  - `dokumen_mentah`: 43 berkas JSON mentah BNPB disimpan utuh.
+- **Alasan pemilihan DuckDB**: Berkas tunggal tanpa dependensi server (serverless), membaca Parquet secara langsung dengan performa analitis tinggi, dan mendukung penegakan relasi kunci primer (PRIMARY KEY) serta batasan CHECK yang menolak duplikasi data secara ketat (uji coba memasukkan ulang sel panel yang sama menghasilkan penolakan `ConstraintException`).
+- **Perbandingan tabel vs dokumen**: Lapis Silver dan Gold disimpan sebagai tabel relasional terstruktur karena kebutuhan analisis selalu per seri × wilayah × periode yang memerlukan validitas kunci dan batasan. Sebaliknya, 43 berkas JSON mentah disimpan sebagai dokumen (`dokumen_mentah`) untuk menjaga bentuk asli sumber data guna kebutuhan audit lineage lapis Bronze.
+
 ### Masalah data dan penanganannya
 
 | Masalah | Bukti dan cara membaca angkanya | Penanganan | Keputusan |
