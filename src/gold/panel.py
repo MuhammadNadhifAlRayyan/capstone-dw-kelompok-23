@@ -6,11 +6,9 @@ Fokus: Transformasi dan Panel
 import numpy as np
 import pandas as pd
 
+from src.gold.aturan import pilih_observasi_gold
 from src.gold.skema import (
-    KODE_NASIONAL,
-    NAMA_NASIONAL,
     PROVINSI_38_2025,
-    SERI_UTAMA_K23,
     TAHUN_AKHIR,
     TAHUN_AWAL,
 )
@@ -34,41 +32,61 @@ def buat_grid_provinsi_periode(tahun_mulai=TAHUN_AWAL, tahun_akhir=TAHUN_AKHIR):
 
 
 def transformasi_log1p(seri):
-    """Transformasi logaritma log1p untuk fitur dengan sebaran moneter sangat lebar."""
-    return np.log1p(np.maximum(0, seri))
+    """Transformasi log1p nilai rupiah nominal; nilai negatif tidak ditutup-tutupi."""
+    numerik = pd.to_numeric(seri, errors="raise")
+    if (numerik.dropna() < 0).any():
+        raise ValueError("log1p nilai rupiah tidak terdefinisi untuk nilai negatif.")
+    return np.log1p(numerik)
 
 
 def pisahkan_nasional(df_silver):
-    """Memisahkan observasi level nasional (9999) dari observasi level provinsi.
-
-    Args:
-        df_silver: DataFrame Silver dengan kolom 'wilayah_kode'
-
-    Returns:
-        (df_provinsi, df_nasional)
-    """
-    is_nasional = (df_silver["wilayah_kode"] == KODE_NASIONAL) | (
-        df_silver["nama_wilayah"].str.upper() == NAMA_NASIONAL
-    )
-    df_nasional = df_silver[is_nasional].copy()
-    df_provinsi = df_silver[~is_nasional].copy()
-    return df_provinsi, df_nasional
+    """Memisahkan level nasional dari provinsi tanpa menjumlahkan rincian."""
+    provincial, national, _ = pilih_observasi_gold(df_silver)
+    return provincial, national
 
 
 def bentuk_panel_gold(df_silver):
-    """Mereshape tabel Silver menjadi panel lebar (Gold) provinsi x periode x indikator.
-
-    Draft kerangka transformasi:
-    1. Memisahkan data nasional (kode 9999) ke tabel nasional.
-    2. Membuat grid master lengkap 38 provinsi x rentang tahun.
-    3. Menggabungkan observasi tiap seri utama ke dalam grid.
-    4. Menghitung transformasi log1p untuk nilai kerugian dan kerusakan.
-    """
-    df_prov, df_nas = pisahkan_nasional(df_silver)
-
-    # Inisialisasi grid master
+    """Bentuk satu baris per provinsi-tahun dan nilai/flag terpisah per indikator."""
+    observations, national, _ = pilih_observasi_gold(df_silver)
     grid = buat_grid_provinsi_periode()
+    grid = grid.rename(columns={"tahun": "periode"})
+    grid["periode"] = grid["periode"].astype(str)
 
-    # Catatan: Integrasi pengisian metrik per seri akan dilakukan
-    # setelah tahap ekstraksi dan pembersihan Silver rampung di Sprint 1.
-    return grid, df_nas
+    for indicator, rows in observations.groupby("_indikator", sort=True):
+        if rows.duplicated(["wilayah_kode", "periode"]).any():
+            raise ValueError(
+                f"Aturan Gold menghasilkan lebih dari satu nilai untuk {indicator}."
+            )
+        columns = ["wilayah_kode", "periode", "nilai"]
+        rows = rows[
+            columns
+            + [
+                "_berkas_raw",
+                "_sha256_raw",
+                "_lineage",
+                "flag_outlier",
+                "flag_patahan",
+            ]
+        ]
+        rows = rows.rename(
+            columns={
+                "nilai": indicator,
+                "_berkas_raw": f"{indicator}__berkas_raw",
+                "_sha256_raw": f"{indicator}__sha256_raw",
+                "_lineage": f"{indicator}__lineage",
+                "flag_outlier": f"{indicator}__flag_outlier",
+                "flag_patahan": f"{indicator}__flag_patahan",
+            }
+        )
+        grid = grid.merge(
+            rows,
+            on=["wilayah_kode", "periode"],
+            how="left",
+            validate="one_to_one",
+        )
+
+    grid["tahun"] = grid.pop("periode").astype(int)
+    for indicator in ("nilai_kerugian", "nilai_kerusakan"):
+        if indicator in grid:
+            grid[f"log_{indicator}"] = transformasi_log1p(grid[indicator])
+    return grid, national

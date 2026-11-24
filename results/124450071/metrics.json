@@ -1,5 +1,12 @@
 {
   "metrik": {
+    "berkas_diverifikasi": 58,
+    "pasangan_rekonsiliasi": 2,
+    "periode_beririsan": 17,
+    "pasangan_konteks": 1,
+    "irisan_p1": 16,
+    "irisan_p2": 1,
+    "irisan_p3": 0,
     "berkas_dibaca": 58,
     "baris_mentah": 15058
   },

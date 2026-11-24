@@ -7,15 +7,24 @@ Jangan menulis sha256 dengan tangan; ambil dari fungsi ini agar Silver dapat dil
 """
 import csv
 import hashlib
+import sys
 from functools import lru_cache
 from pathlib import Path
+
+
+def _longpath(p: Path) -> str:
+    """Kembalikan string path dengan prefix \\?\\ di Windows agar mendukung path >260 karakter."""
+    s = str(p.resolve())
+    if sys.platform == "win32" and not s.startswith("\\\\"):
+        return "\\\\?\\" + s
+    return s
 
 RAW = Path(__file__).resolve().parents[2] / "data" / "raw"
 
 
 def sha256(path):
     h = hashlib.sha256()
-    with open(path, "rb") as f:
+    with open(_longpath(Path(path)), "rb") as f:
         for blok in iter(lambda: f.read(1 << 20), b""):
             h.update(blok)
     return h.hexdigest()
@@ -39,5 +48,5 @@ def periksa(raw=RAW):
     """Hitung ulang sha256 semua berkas di MANIFEST. Mengembalikan (jumlah, daftar yang tidak cocok)."""
     raw = Path(raw)
     manifest = baca(raw)
-    salah = [b for b, h in manifest.items() if not (raw / b).exists() or sha256(raw / b) != h]
+    salah = [b for b, h in manifest.items() if not Path(_longpath(raw / b)).exists() or sha256(raw / b) != h]
     return len(manifest), salah

@@ -8,8 +8,8 @@ Tabel nasional (periode x seri, rincian total, tampilan lebar): `reports/tabel-n
 
 | id | seri_utama | pembanding | jenis | periode_beririsan | tahun | dugaan_kategori |
 |---|---|---|---|---|---|---|
-| P1 | rumah_rusak | rumah_rusak [jenis_bencana=banjir] | selisih | 16 | 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 | seharusnya sama: satu rumah tidak dihitung di dua provinsi (berbeda dengan kejadian) |
-| P2 | rumah_rusak | rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=berat], rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=sedang], rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=ringan] | selisih | 1 | 2025 | seharusnya sama: dua tabel 2025 dari kompilasi yang sama |
+| P1 | rumah_rusak | rumah_rusak [jenis_bencana=banjir] | selisih | 0 | — | seharusnya sama: satu rumah tidak dihitung di dua provinsi (berbeda dengan kejadian) |
+| P2 | rumah_rusak | rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=berat], rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=sedang], rumah_rusak [jenis_bencana=banjir;tingkat_kerusakan=ringan] | selisih | 0 | — | seharusnya sama: dua tabel 2025 dari kompilasi yang sama |
 | P3 | EN.CLC.MDAT.ZS | rumah_rusak [jenis_bencana=banjir] | konteks | 0 | — | periode dan konsep berbeda: WDI persen penduduk terdampak 1990–2009, BNPB unit rusak |
 
 ## Rincian per pasangan
@@ -17,7 +17,7 @@ Tabel nasional (periode x seri, rincian total, tampilan lebar): `reports/tabel-n
 ### P1: Rumah rusak banjir: baris INDONESIA vs jumlah 38 provinsi
 - Seri utama: `rumah_rusak` (rincian `jenis_bencana=banjir`)
 - Pembanding: `rumah_rusak` (rincian `jenis_bencana=banjir`)
-- Jenis: **selisih**; tahun beririsan: 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+- Jenis: **selisih**; tahun beririsan: —
 - Dugaan kategori selisih (diuji di Sprint 2): seharusnya sama: satu rumah tidak dihitung di dua provinsi (berbeda dengan kejadian)
 
 Pertanyaan keterbandingan dan jawabannya:
@@ -28,7 +28,7 @@ Pertanyaan keterbandingan dan jawabannya:
 ### P2: Rumah rusak 2025: tabel per jenis vs rekap nasional (berat + sedang + ringan)
 - Seri utama: `rumah_rusak` (rincian `jenis_bencana=banjir`)
 - Pembanding: `rumah_rusak` (rincian `jenis_bencana=banjir;tingkat_kerusakan=berat`), `rumah_rusak` (rincian `jenis_bencana=banjir;tingkat_kerusakan=sedang`), `rumah_rusak` (rincian `jenis_bencana=banjir;tingkat_kerusakan=ringan`)
-- Jenis: **selisih**; tahun beririsan: 2025
+- Jenis: **selisih**; tahun beririsan: —
 - Dugaan kategori selisih (diuji di Sprint 2): seharusnya sama: dua tabel 2025 dari kompilasi yang sama
 
 Pertanyaan keterbandingan dan jawabannya:
