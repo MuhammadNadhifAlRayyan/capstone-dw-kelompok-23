@@ -13,15 +13,30 @@ from src.laporan import ROOT, catat, tabel_md, tulis
 
 def tabel_nasional(silver):
     nas = silver[silver["wilayah_kode"] == W.INDONESIA].copy()
-    nas["kolom"] = nas["seri_kode"] + nas["rincian"].map(lambda r: "" if r == "total" else f" [{r}]")
-    total = nas[nas["rincian"] == "total"]
-    lebar = total.pivot_table(index="periode", columns="kolom", values="nilai").sort_index()
+    if "indikator" not in nas:
+        nas["indikator"] = nas["seri_kode"] + nas["rincian"].map(
+            lambda detail: "" if detail == "total" else f" [{detail}]"
+        )
+    if nas.duplicated(["periode", "indikator"]).any():
+        raise ValueError("Tabel nasional memiliki lebih dari satu nilai per periode-indikator.")
+    lebar = nas.pivot(index="periode", columns="indikator", values="nilai").sort_index()
     return nas, lebar
 
 
 def irisan(silver, utama, rinci_utama, pembanding, semester=None):
     def per(seri, rinci):
-        s = silver[(silver["seri_kode"] == seri) & (silver["rincian"] == rinci) & (silver["wilayah_kode"] == W.INDONESIA)]
+        if "indikator" in silver:
+            indicator = seri if rinci == "total" else f"{seri}_{rinci}"
+            s = silver[
+                (silver["indikator"] == indicator)
+                & (silver["wilayah_kode"] == W.INDONESIA)
+            ]
+        else:
+            s = silver[
+                (silver["seri_kode"] == seri)
+                & (silver["rincian"] == rinci)
+                & (silver["wilayah_kode"] == W.INDONESIA)
+            ]
         # tahun proyeksi (bukan estimasi atas data) tidak ikut tabel rekonsiliasi
         return set(s["periode"]) - set(getattr(K, "PROYEKSI", {}).get(seri, set()))
     a = per(utama, rinci_utama)

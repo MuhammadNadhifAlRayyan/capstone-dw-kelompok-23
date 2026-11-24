@@ -40,10 +40,16 @@ def bongkar(z, ke_raw, lain=None):
             tujuan = lain[rel]
         else:
             continue
-        tujuan.parent.mkdir(parents=True, exist_ok=True)
-        with z.open(info) as sumber, open(tujuan, "wb") as f:
+        # Gunakan prefix \\?\ untuk mendukung path >260 karakter di Windows
+        tujuan_str = str(tujuan)
+        if sys.platform == "win32" and not tujuan_str.startswith("\\\\?\\"):
+            tujuan_str = "\\\\?\\" + tujuan_str
+            tujuan_long = Path(tujuan_str)
+        else:
+            tujuan_long = tujuan
+        tujuan_long.parent.mkdir(parents=True, exist_ok=True)
+        with z.open(info) as sumber, open(tujuan_str, "wb") as f:
             shutil.copyfileobj(sumber, f)
-
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
