@@ -1,5 +1,7 @@
 {
   "metrik": {
+    "baris_nasional_gold": 28,
+    "seri_nasional_gold": 9,
     "berkas_dibaca": 58,
     "baris_mentah": 15058,
     "format": 3

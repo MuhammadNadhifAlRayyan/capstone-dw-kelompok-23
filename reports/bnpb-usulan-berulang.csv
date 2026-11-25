@@ -1,0 +1,11 @@
+_berkas_raw,wilayah_kode,periode,kab_baku,usulan,nilai_min,nilai_maks,baris
+bnpb/2026-10-20/datastore/data-bencana-indonesia/b1aa4eb5-d325-44f1-8598-7cdf44073173.json,7200,2018,DONGGALA,3,0.0,4413862554420.0,"34,36,37"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/b1aa4eb5-d325-44f1-8598-7cdf44073173.json,7200,2018,KOTA PALU,2,4159517464704.0,6982073629477.0,"38,40"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/b1aa4eb5-d325-44f1-8598-7cdf44073173.json,9100,2018,MANOKWARI,2,275000000.0,1650000000.0,"9,10"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/c013b8a0-4af3-416a-aec2-00feb6dd20a7.json,1800,2020,MESUJI,2,0.0,133897282643.0,"9,31"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/c013b8a0-4af3-416a-aec2-00feb6dd20a7.json,7300,2020,WAJO,2,0.0,167607500000.0,"6,33"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/e2c2ed75-c2c4-4f3b-90e3-3565b516c3f0.json,1600,2017,OGAN ILIR,2,40380000000.0,40380000000.0,"48,58"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,1800,2020,MESUJI,2,0.0,133897282643.0,"162,197"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,7200,2018,DONGGALA,3,0.0,4413862554420.0,"129,193,236"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,7200,2018,KOTA PALU,2,4159517464704.0,6982073629477.0,"237,281"
+bnpb/2026-10-20/datastore/data-bencana-indonesia/fefc94c0-5275-4d12-899e-1d517f6c8f7c.json,7300,2020,WAJO,2,0.0,167607500000.0,"165,199"
