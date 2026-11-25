@@ -14,3 +14,5 @@ melainkan "mengerti atau tidak" — isi kolom terakhir dengan apa yang Anda ubah
 | 2026-11-18 | 124450048 | Claude | Standardisasi katalog 15 seri kanonik, penetapan kode SDG, dan penyusunan pipeline Silver | Mengoreksi satuan luas ke hektar, memetakan 38 kode provinsi BPS, dan memastikan skema Silver bebas kunci kembar |
 | 2026-11-24 | 124450080 | Antigravity AI | Pembuatan tabel rekonsiliasi Tahap 6 di data/gold/rekonsiliasi.parquet dan sinkronisasi metrik | Menyesuaikan kategori penjelasan selisih (tanpa pasangan, tidak berselisih, definisi berbeda), memastikan WDI sebagai konteks, dan memutakhirkan metrik hasil Sprint 2 |
 | 2026-11-25 | 124450080 | Antigravity AI | Penyusunan draf bagian Integrasi dan rekonsiliasi pada reports/tim.md (Tugas #28) | Menyederhanakan deskripsi tabel pasangan rekonsiliasi, merangkum median selisih (0.0%), dan menautkan rujukan angka ke data/gold/rekonsiliasi.parquet |
+| 2026-11-25 | 124450048 | Claude | Pembentukan panel Gold provinsi 12 indikator, penanganan sel kosong, dan evaluasi skema | Memastikan aturan satu nilai per sel snapshot terbaru, mempertahankan penanda anomali Sprint 1, dan meloloskan 10 aturan validasi Gold |
+
