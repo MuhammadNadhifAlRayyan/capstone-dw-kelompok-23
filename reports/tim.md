@@ -50,13 +50,18 @@ Data Silver dan Gold dimuat ke basis data DuckDB (`data/gold/gudang.duckdb`, 9,4
 
 ### Integrasi dan rekonsiliasi
 
-Tiga pasangan disiapkan: P1 dan P2 untuk uji selisih; P3 untuk konteks WDI. Rujukan periode irisan adalah [ringkasan pasangan](pasangan-rekonsiliasi.md#ringkasan-pasangan) dan metrik NIM 124450071 (`irisan_p1=16`, `irisan_p2=1`, `irisan_p3=0`; [baris metrik](../results/124450071/metrics.json#L2-L9)).
+Panel Gold memuat 12 indikator provinsi (1.688 sel terisi dan 3.556 sel kosong berkategori; rincian di [panel-gold.md](panel-gold.md) atau `data/gold/panel.parquet`). Tabel nasional Gold menaruh seri utama dan pembanding berdampingan, sedangkan tabel rekonsiliasi berisi **33 baris data** ([rekonsiliasi.md](rekonsiliasi.md) atau [rekonsiliasi.parquet](../data/gold/rekonsiliasi.parquet)). Dari pasangan yang dibandingkan, median selisih relatif mutlaknya adalah **0.0%**.
 
-- P1 membandingkan rumah rusak akibat banjir pada baris nasional dengan jumlah provinsi; 16 tahun beririsan.
-- P2 membandingkan total rumah rusak banjir 2025 dengan jumlah tingkat berat, sedang, dan ringan; 1 tahun beririsan.
-- P3 membandingkan konsep berbeda sebagai konteks, bukan sebagai selisih; tidak ada tahun beririsan.
+| Pasangan | Yang dibandingkan | Median selisih relatif | Kategori | Penjelasan sederhana |
+|---|---|---|---|---|
+| P1 | Rumah rusak banjir: baris INDONESIA vs jumlah 38 provinsi | 0.0% | tidak berselisih (angka sama) | Seharusnya sama karena satu rumah rusak tidak dihitung ganda di dua provinsi (berbeda dengan frekuensi kejadian). |
+| P2 | Rumah rusak 2025: tabel per jenis vs rekap nasional (berat + sedang + ringan) | 0.0% | tidak berselisih (angka sama) | Seharusnya sama karena kedua tabel tahun 2025 bersumber dari kompilasi publikasi yang sama. |
+| P3 | Penduduk terdampak bencana iklim (WDI `EN.CLC.MDAT.ZS`): konteks | — | definisi berbeda | Konsep dan waktunya berbeda: WDI mengukur persen populasi terdampak (rata-rata 1990–2009), sedangkan BNPB menghitung jumlah unit rumah rusak fisik. |
 
-Nilai selisihnya direncanakan untuk diuji pada Sprint 2. Tabel nasional tersedia di [tabel-nasional.csv](tabel-nasional.csv).
+Seluruh selisih apa adanya tetap ditampilkan tanpa ada yang dihapus atau disamakan paksa. Tahun pembanding yang berada di luar rentang seri utama tidak dimasukkan, namun seluruh periode seri utama tetap muncul meskipun belum ada pasangannya (*tanpa pasangan*). Keputusan teknis pasangan:
+- **P1**: Baris INDONESIA dibandingkan langsung dengan jumlah total baris provinsi pada berkas yang sama (`GOLD_AGREGAT`).
+- **P2**: Angka rumah rusak kategori berat, sedang, dan ringan pada rekap nasional dijumlahkan terlebih dahulu sebelum dibandingkan dengan tabel per jenis.
+- **P3**: Diposisikan sebagai konteks pembanding internasional tanpa perhitungan selisih numerik langsung.
 
 ### Validasi dan reproduksibilitas
 
