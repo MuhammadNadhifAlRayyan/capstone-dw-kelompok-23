@@ -1,28 +1,40 @@
-# Naskah Demo Sprint 1 (±10 menit) — Kasus 23
+# Naskah Demo Sprint 2 (±10 menit) — Kasus 23
 
-Demo memperlihatkan alur yang bisa diulang, bukan tampilan yang cantik. Rekam layar terminal dan editor.
+Demo Sprint 2 memperlihatkan perjalanan satu angka dari Silver ke panel Gold, ke SQL, dan ke tabel
+rekonsiliasi. Rekam layar terminal dan editor.
 
 | Menit | Tunjukkan | Perintah atau berkas |
 |---|---|---|
-| 0–1 | Kasus dan Sprint Goal | `sprint/sprint-1/sprint-goal.md` |
-| 1–2 | Data mentah lolos sha256 dari klon bersih | `python unduh_data.py --kasus 23` |
-| 2–4 | Satu perintah dari mentah sampai Silver dan validasi | `python pipeline.py` (±6.7 detik) |
-| 4–5 | Pemeriksa skema | `python -m src.common.skema data/silver/silver.parquet` → LOLOS 18.187 baris |
-| 5–6 | Satu pembaca dan jumlah baris per berkas | `src/ekstraksi/`, `reports/ekstraksi.md` |
-| 6–7 | Satu bentuk sel; rumah rusak berat/sedang/ringan; usulan nilai beberapa tahun dan berulang | `src/ekstraksi/bnpb.py`, `reports/bnpb-dibuang.csv`, `reports/bnpb-usulan-berulang.csv` |
-| 7–8 | Galat input luas lahan 2012; kab/kota vs provinsi; rekap nilai vs tabel per tahun | `reports/galat-input.csv`, `reports/validasi.md` |
-| 8–9 | Validasi dan tes baris yang sengaja dirusak | `reports/validasi.md`, `python -m pytest -q` |
-| 9–10 | Satu baris Silver ditelusuri ke berkas mentah; rencana Sprint 2 | `docs/data-dictionary.md` bagian contoh penelusuran |
+| 0–1 | Sprint Goal dan tiga butir DoD | `sprint/sprint-2/sprint-goal.md` |
+| 1–3 | Satu perintah dari mentah sampai Gold, SQL, validasi | `python pipeline.py` (±8.7 detik) |
+| 3–4 | Aturan satu nilai per sel dan panel Gold | `reports/panel-gold.md`; buka `data/gold/panel_lebar.parquet` |
+| 4–5 | Sel kosong tetap tampil dengan kategorinya | kolom `status_sel` di `data/gold/panel.parquet` |
+| 5–6 | Gold di DuckDB, kunci primer menolak sel ganda | `reports/basis-data.md`; kueri di bawah |
+| 6–8 | Rekonsiliasi P1: Rumah rusak banjir: baris INDONESIA vs jumlah 38 provinsi | `reports/rekonsiliasi.md`; median 0.0% |
+| 8–9 | Validasi Gold dan tes baris yang sengaja dirusak | `reports/validasi.md`, `python -m pytest -q tests/test_gold.py` |
+| 9–10 | Satu sel Gold ditelusuri ke berkas mentah; rencana Sprint 3 | `docs/data-dictionary.md` bagian *Contoh penelusuran satu sel Gold* |
 
-Uji reproduksi (tugas Reproduksi): klon repo ke folder baru, jalankan tiga perintah di atas, lalu
-bandingkan `data/silver/silver.parquet` hasil jalan ulang dengan yang di-commit:
+Kueri contoh di DuckDB:
+
+```bash
+python - <<'EOF'
+import duckdb
+con = duckdb.connect("data/gold/gudang.duckdb", read_only=True)
+print(con.sql("SELECT pasangan_id, kategori, count(*) n, round(median(abs(selisih_relatif)), 1) median_persen "
+              "FROM rekonsiliasi GROUP BY ALL ORDER BY pasangan_id"))
+EOF
+```
+
+Uji reproduksi (tugas Reproduksi): klon repo ke folder baru, jalankan `unduh_data.py` dan `pipeline.py`, lalu
+bandingkan ketiga berkas Gold dengan yang di-commit:
 
 ```bash
 python - <<'EOF'
 import pandas as pd
-a = pd.read_parquet("data/silver/silver.parquet")
-b = pd.read_parquet("/jalur/repo-asli/data/silver/silver.parquet")
-print("sama" if a.equals(b) else "berbeda")
+for f in ["silver/silver", "gold/panel", "gold/nasional", "gold/rekonsiliasi"]:
+    a = pd.read_parquet(f"data/{f}.parquet")
+    b = pd.read_parquet(f"/jalur/repo-asli/data/{f}.parquet")
+    print(f, "sama" if a.equals(b) else "berbeda")
 EOF
 ```
 
