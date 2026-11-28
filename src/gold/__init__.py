@@ -12,7 +12,7 @@ def jalankan(silver):
         raise ValueError("Gold memerlukan DataFrame Silver yang tidak kosong.")
 
     GOLD_DIR.mkdir(parents=True, exist_ok=True)
-    panel_provinsi, selected_national = bentuk_panel_gold(silver)
+    panel_provinsi, selected_national, selection_counts = bentuk_panel_gold(silver)
     panel_provinsi.to_parquet(GOLD_DIR / "panel_provinsi_bencana.parquet", index=False)
     selected_national.to_parquet(GOLD_DIR / "gold_nasional.parquet", index=False)
 
@@ -21,5 +21,6 @@ def jalankan(silver):
     integrasi = nasional.jalankan(selected_national)
     integrasi["panel_provinsi"] = panel_provinsi
     integrasi["nasional_terpilih"] = selected_national
+    integrasi["gold_selection_counts"] = selection_counts
     integrasi["baris_sql"] = muat_sql.jalankan(silver)
     return integrasi

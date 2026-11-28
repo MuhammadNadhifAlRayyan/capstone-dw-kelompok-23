@@ -124,7 +124,9 @@ Fungsi `pilih_observasi_gold` di `src/gold/aturan.py` dipanggil saat `python pip
 membangun Gold. Kunci Gold adalah provinsi × tahun × indikator; tabel nasional memakai
 wilayah × periode asli × indikator. Aturan dan hitungan baris Silver yang tidak terpilih
 ditulis/diperbarui pada `log-keputusan.csv` (K-101–K-105). Dampak nol berarti aturan
-tersebut tidak mengecualikan baris Silver.
+tersebut tidak mengecualikan baris Silver. Hitungan yang sama dikembalikan oleh
+`bentuk_panel_gold` dan tersedia di hasil `gold.jalankan(silver)` sebagai
+`gold_selection_counts`; `pipeline.py` mencetaknya setelah tahap Gold selesai.
 
 1. **Snapshot dan revisi:** untuk indikator, wilayah, periode, dan rincian yang sama,
    snapshot dengan tanggal pada jalur sumber terbaru dipilih. Jika tanggal sama, kompilasi

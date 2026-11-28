@@ -25,6 +25,10 @@ def main():
         mulai = time.time()
         hasil[nama] = langkah(hasil)
         print(f"{nama:<10} selesai dalam {time.time() - mulai:.1f} s")
+        if nama == "gold":
+            counts = hasil[nama]["gold_selection_counts"]
+            detail = ", ".join(f"{rule_id}: {count}" for rule_id, count in counts.items())
+            print(f"Baris Silver tidak terpilih per keputusan Gold: {detail}")
     print("Periksa skema minimal: python -m src.common.skema data/silver/silver.parquet")
 
 

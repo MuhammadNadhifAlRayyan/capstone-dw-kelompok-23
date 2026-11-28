@@ -46,8 +46,8 @@ def pisahkan_nasional(df_silver):
 
 
 def bentuk_panel_gold(df_silver):
-    """Bentuk satu baris per provinsi-tahun dan nilai/flag terpisah per indikator."""
-    observations, national, _ = pilih_observasi_gold(df_silver)
+    """Bentuk panel, tabel nasional terpilih, dan jumlah Silver yang dikecualikan."""
+    observations, national, selection_counts = pilih_observasi_gold(df_silver)
     grid = buat_grid_provinsi_periode()
     grid = grid.rename(columns={"tahun": "periode"})
     grid["periode"] = grid["periode"].astype(str)
@@ -89,4 +89,4 @@ def bentuk_panel_gold(df_silver):
     for indicator in ("nilai_kerugian", "nilai_kerusakan"):
         if indicator in grid:
             grid[f"log_{indicator}"] = transformasi_log1p(grid[indicator])
-    return grid, national
+    return grid, national, selection_counts

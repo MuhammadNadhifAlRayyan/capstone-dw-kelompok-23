@@ -6,6 +6,7 @@ from unittest.mock import patch
 
 import pandas as pd
 
+import src.gold as gold
 from src.gold import aturan
 from src.gold.aturan import pilih_observasi_gold
 from src.gold.panel import bentuk_panel_gold, transformasi_log1p
@@ -114,12 +115,29 @@ class GoldRuleTests(unittest.TestCase):
             "src.gold.aturan._flag_tables",
             return_value=(pd.DataFrame(), pd.DataFrame()),
         ):
-            panel, national = bentuk_panel_gold(self.silver)
+            panel, national, counts = bentuk_panel_gold(self.silver)
         self.assertEqual(len(panel), 38 * 16)
+        self.assertEqual(counts["K-101"], 1)
         aceh_2020 = panel.query("wilayah_kode == 1100 and tahun == 2020").iloc[0]
         self.assertEqual(aceh_2020["kejadian"], 12)
         self.assertTrue(pd.isna(aceh_2020["kejadian__flag_outlier"]))
         self.assertEqual(len(national), 1)
+
+    def test_gold_pipeline_result_exposes_selection_counts(self):
+        counts = {"K-101": 9, "K-102": 4, "K-103": 2, "K-104": 0, "K-105": 0}
+        with tempfile.TemporaryDirectory() as output_directory:
+            with (
+                patch.object(gold, "GOLD_DIR", Path(output_directory)),
+                patch.object(
+                    gold,
+                    "bentuk_panel_gold",
+                    return_value=(pd.DataFrame({"tahun": [2020]}), pd.DataFrame(), counts),
+                ),
+                patch("src.gold.nasional.jalankan", return_value={}),
+                patch("src.gold.muat_sql.jalankan", return_value=1),
+            ):
+                result = gold.jalankan(pd.DataFrame({"nilai": [1]}))
+        self.assertEqual(result["gold_selection_counts"], counts)
 
     def test_sums_disaster_type_rows_when_no_direct_total_exists(self):
         source = pd.DataFrame(
