@@ -26,12 +26,17 @@ Hasil yang terverifikasi: **18.187 baris, 15 seri, 40 rincian, dan 39 wilayah**.
 
 Data Silver dan Gold dimuat ke basis data DuckDB (`data/gold/gudang.duckdb`, 9,4 MB) secara otomatis melalui `src/gold/muat_sql.py` dengan skema DDL berkunci primer dan batasan integritas ([DDL Silver](../src/gold/silver.sql); [DDL Gold](../src/gold/gold.sql); [laporan basis data](basis-data.md)).
 
-- **Struktur tabel dan baris terverifikasi**:
-  - `silver`: 18.187 baris (PK: sumber, seri_kode, wilayah_kode, periode, rincian, _berkas_raw; FK ke tabel seri).
-  - `gold_panel`: 5.244 baris (PK: indikator, wilayah_kode, periode; CHECK status_sel).
-  - `gold_nasional`: 28 baris (PK: seri_kode, rincian, periode; CHECK asal).
-  - `rekonsiliasi`: 33 baris (PK: pasangan_id, seri_pembanding, rincian_pembanding, periode; CHECK kategori).
-  - `dokumen_mentah`: 43 berkas JSON mentah BNPB disimpan utuh.
+- **Struktur tabel dan baris terverifikasi (hitung ulang SQL vs Parquet dari satu eksekusi `python pipeline.py`)**:
+  - `seri`: SQL **15** baris = `docs/seri.csv` **15** baris (selisih **0**).
+  - `silver`: SQL **18.187** baris = `data/silver/silver.parquet` **18.187** baris (selisih **0**; PK: `sumber, seri_kode, wilayah_kode, periode, rincian, _berkas_raw`; FK ke `seri`).
+  - `gold_panel`: SQL **5.244** baris = `data/gold/panel.parquet` **5.244** baris (selisih **0**; PK: `indikator, wilayah_kode, periode`; CHECK `status_sel`).
+  - `gold_nasional`: SQL **28** baris = `data/gold/nasional.parquet` **28** baris (selisih **0**; PK: `seri_kode, rincian, periode`; CHECK `asal`).
+  - `rekonsiliasi`: SQL **33** baris = `data/gold/rekonsiliasi.parquet` **33** baris (selisih **0**; PK: `pasangan_id, seri_pembanding, rincian_pembanding, periode`; CHECK `kategori`).
+  - `dokumen_mentah`: SQL **43** berkas JSON mentah BNPB disimpan utuh dari `data/raw/`.
+- **Penjelasan selisih hitungan Gold yang dilaporkan**:
+  - **`baris_gold` (5.244) vs `baris_sql_gold` (5.305) — selisih 61 baris**: Metrik `baris_gold` (`5.244`) hanya menghitung tabel `gold_panel` (`panel.parquet`: `1.688` sel terisi + `3.556` sel kosong berkategori). Sedangkan `baris_sql_gold` (`5.305`) di `src/gold/muat_sql.py` menjumlahkan seluruh 3 tabel Gold di DuckDB: `5.244 (gold_panel) + 28 (gold_nasional) + 33 (rekonsiliasi) = 5.305` baris.
+  - **`panel.parquet` (5.244) vs `panel_lebar.parquet` (608)**: `panel_lebar.parquet` (`608` baris × `16` kolom) adalah bentuk pivot lebar dari sel terisi saja (`1.688` nilai disebar ke 12 kolom indikator), sehingga tidak dimuat sebagai tabel SQL terpisah karena datanya sudah tercakup penuh di `gold_panel`.
+  - **Penurunan `silver` (18.187) ke sel terisi `gold_panel` (1.688)**: Tabel `silver` terdiri atas `16.676` baris provinsi dan `1.511` baris nasional (`wilayah_kode = 9999`). Dari baris provinsi, aturan satu nilai per sel memilih `1.688` baris deret utama (`terisi`), sedangkan `14.988` baris provinsi lainnya (`silver_tidak_terpilih`) tetap di Silver (`1.688 + 14.988 + 1.511 = 18.187`).
 - **Alasan pemilihan DuckDB**: Berkas tunggal tanpa dependensi server (serverless), membaca Parquet secara langsung dengan performa analitis tinggi, dan mendukung penegakan relasi kunci primer (PRIMARY KEY) serta batasan CHECK yang menolak duplikasi data secara ketat (uji coba memasukkan ulang sel panel yang sama menghasilkan penolakan `ConstraintException`).
 - **Perbandingan tabel vs dokumen**: Lapis Silver dan Gold disimpan sebagai tabel relasional terstruktur karena kebutuhan analisis selalu per seri × wilayah × periode yang memerlukan validitas kunci dan batasan. Sebaliknya, 43 berkas JSON mentah disimpan sebagai dokumen (`dokumen_mentah`) untuk menjaga bentuk asli sumber data guna kebutuhan audit lineage lapis Bronze.
 
